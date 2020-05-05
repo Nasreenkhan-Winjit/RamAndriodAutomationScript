@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="RamTestCases.OtrDeleiveryC2"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="RamTestCases.OtrDeleiveryC2">
+        <methods>
+          <include name="DeliverywithRuleNo7Step3ValidOTP"/>
+          <include name="Paxirule14and19Valid"/>
+          <include name="beforeSuite"/>
+          <include name="DeliveryRule1and3"/>
+          <include name="DeliverywithRuleNo7Step2InvalidOTP"/>
+          <include name="GRVdeliveryrule5"/>
+          <include name="KnockNdropValid"/>
+          <include name="DeliverywithRuleNo7Step1"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="KnockNdropInValid"/>
+          <include name="Paxirule14and19Invalid"/>
+          <include name="GRVDeliverywithrule5and6"/>
+          <include name="ValidateBackBtn"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- RamTestCases.OtrDeleiveryC2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
