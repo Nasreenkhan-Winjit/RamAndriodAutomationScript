@@ -147,7 +147,7 @@ public synchronized void afterMethod(ITestResult result) {
 	  MobileElement el14 = (MobileElement) driver.findElementById("android:id/button1");
 	  el14.click();  
 	  
-	  
+	  //addd change
 	  
 	  
   }
