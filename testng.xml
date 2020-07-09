@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test name="Regression Test">
+        <classes>
+            <class name="RamTestCases.Login">
+<!--                <class name="RamTestCases.OtrCollection">-->
+<!--            <class name="RamTestCases.OtrDeliveryC1">-->
+<!--            <class name="RamTestCases.OtrDeleiveryC2">-->
+<!--            <class name="RamTestCases.Logout">-->
+<!--            <class name="RamTestCases.BaseDevTestForRestModule">-->
+<!--            <class name="RamTestCases.BaseTestForC1andC2">-->
+<!--            <class name="RamTestCases.OtrAdhocParcel">-->
+<!--            <class name="RamTestCases.OtrHandoverParcel">-->
+<!--            <class name="RamTestCases.OtrReturnToHub">-->
+
+
+            </class> <!-- testscreens.TestAcceptPermission -->
+        </classes>
+    </test> <!-- Demo1 -->
+</suite> <!-- Default Suite -->

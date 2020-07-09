@@ -59,12 +59,12 @@ public class OtrDeleiveryC2 {
 		cap.setCapability("platformName", "Android");	
 		cap.setCapability("platformVersion", "9");
 		cap.setCapability("deviceName", "Vivo");
-		cap.setCapability("udid", "8SSCCMUCKV7SIVRG");  
-		cap.setCapability("autoGrantPermission", "true");
+		cap.setCapability("udid", "8SSCCMUCKV7SIVRG");
+//		cap.setCapability("autoGrantPermission", "true");
 		cap.setCapability("appPackage", "com.ram.courier");
 		cap.setCapability("appActivity", "com.ram.courier.activities.SplashScreen");
-		//			 cap.setCapability("noReset", "true");
-		//			cap.setCapability("fullReset", "false");
+					 cap.setCapability("noReset", "true");
+					cap.setCapability("fullReset", "false");
 
 
 		driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
@@ -123,7 +123,7 @@ public class OtrDeleiveryC2 {
 
 
 
-		driver.findElementById("com.ram.courier:id/et_otp").sendKeys("1181");
+		driver.findElementById("com.ram.courier:id/et_otp").sendKeys("18031");
 
 		driver.findElementById("com.ram.courier:id/et_otp").clear();
 
@@ -133,7 +133,7 @@ public class OtrDeleiveryC2 {
 
 	public void DeliverywithRuleNo7Step3ValidOTP() throws InterruptedException {	
 
-		driver.findElementById("com.ram.courier:id/et_otp").sendKeys("11819");
+		driver.findElementById("com.ram.courier:id/et_otp").sendKeys("12189");
 		driver.findElementById("com.ram.courier:id/btn_scan_proceed").click();
 		driver.findElementById("com.ram.courier:id/et_receiver_name").sendKeys("AutoTest");
 		driver.findElementById("com.ram.courier:id/btn_proceed").click();
@@ -206,7 +206,7 @@ public class OtrDeleiveryC2 {
 		MobileElement el5 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_no");
 		el5.click();
 		MobileElement el6 = (MobileElement) driver.findElementById("com.ram.courier:id/et_otp");
-		el6.sendKeys("1392");
+		el6.sendKeys("4884");
 		MobileElement el7 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
 		el7.click();
 		MobileElement el8 = (MobileElement) driver.findElementById("com.ram.courier:id/et_name");
@@ -244,7 +244,7 @@ public class OtrDeleiveryC2 {
 		MobileElement el8 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_no");
 		el8.click();
 		MobileElement el9 = (MobileElement) driver.findElementById("com.ram.courier:id/et_otp");
-		el9.sendKeys("7857");
+		el9.sendKeys("4640");
 		MobileElement el10 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_scan_proceed");
 		el10.click();
 		MobileElement el11 = (MobileElement) driver.findElementById("com.ram.courier:id/et_receiver_name");

@@ -36,12 +36,12 @@ public class OtrReturnToHub {
 
 	@BeforeSuite
 	public void beforeSuite() {
-		extent = ExtentManager.createInstance("~\\..\\Result\\DeliveryC1Report.html");
-		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("~\\..\\Result\\DeliveryC1Report.html");
+		extent = ExtentManager.createInstance("~\\..\\Result\\ReturntoHUBReport.html.html");
+		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("~\\..\\Result\\ReturntoHUBReport.html.html");
 		extent.attachReporter(htmlReporter);
 		htmlReporter.config().setTheme(Theme.DARK);
-		htmlReporter.config().setReportName("AutomationReport-DeliveryC1Report");
-		htmlReporter.config().setDocumentTitle("AutomationReport-DeliveryC1Report");
+		htmlReporter.config().setReportName("AutomationReport-ReturntoHUBReport.html");
+		htmlReporter.config().setDocumentTitle("AutomationReport-ReturntoHUBReport.html");
 
 	}
 
@@ -60,11 +60,11 @@ public class OtrReturnToHub {
 		cap.setCapability("platformVersion", "9");
 		cap.setCapability("deviceName", "Vivo");
 		cap.setCapability("udid", "8SSCCMUCKV7SIVRG");  
-		cap.setCapability("autoGrantPermission", "true");
+//		cap.setCapability("autoGrantPermission", "true");
 		cap.setCapability("appPackage", "com.ram.courier");
 		cap.setCapability("appActivity", "com.ram.courier.activities.SplashScreen");
-		//			 cap.setCapability("noReset", "true");
-		//			cap.setCapability("fullReset", "false");
+		cap.setCapability("noReset", "true");
+		cap.setCapability("fullReset", "false");
 
 
 		driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
@@ -95,96 +95,129 @@ public class OtrReturnToHub {
 	}
 	@Test(description= "To verify Proceed Button",priority= 0)
 
+
 	public void ReturntoHubProceedBtn () throws InterruptedException {
 
-	MobileElement el1 = (MobileElement) driver.findElementById("com.ram.courier:id/ll_return_hub");
-	el1.click();
-	MobileElement el2 = (MobileElement) driver.findElementById("com.ram.courier:id/tv_select_reason");
-	el2.click();
-	MobileElement el3 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed_");
-	el3.click();
-	MobileElement el4 = (MobileElement) driver.findElementById("android:id/button1");
-	el4.click();
-	
+
+
+		MobileElement el1 = (MobileElement) driver.findElementById("com.ram.courier:id/ll_on_the_road");
+		el1.click();
+		MobileElement el2 = (MobileElement) driver.findElementById("com.ram.courier:id/ll_return_hub");
+		el2.click();
+		MobileElement el3 = (MobileElement) driver.findElementById("com.ram.courier:id/tv_select_reason");
+		el3.click();
+
+
+
+
+
+
 	}
-	
+
 	@Test(description= "To verify and select Reason for Open Deliveries ",priority= 1)
 
 	public void ReturntoHubSelectReasonforOpenDeliveries () throws InterruptedException {
-		
-		
-	MobileElement el5 = (MobileElement) driver.findElementById("com.ram.courier:id/tv_select_reason");
-	el5.click();
-	MobileElement el6 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[4]");
-	el6.click();
+
+		MobileElement el4 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[4]");
+		el4.click();
+
 	}
-	
-	
+
+
 	@Test(description= "To verify and select Reason for Open Deliveries ",priority= 2)
 
 	public void ReturntoHubSelectReasonforOpenCollection () throws InterruptedException {
-		
-	
-	MobileElement el7 = (MobileElement) driver.findElementById("com.ram.courier:id/tv_select_collection_reason");
-	el7.click();
-	MobileElement el8 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
-	el8.click();
-	MobileElement el9 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed_");
-	el9.click();
-	
+
+		MobileElement el5 = (MobileElement) driver.findElementById("com.ram.courier:id/tv_select_collection_reason");
+		el5.click();
+		MobileElement el6 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
+		el6.click();
+
+//		MobileElement clickOnOpenCollectionDropDown = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.widget.LinearLayout");
+//		clickOnOpenCollectionDropDown.click();
+//		MobileElement selectReasonforOpenCollection = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[6]");
+//		selectReasonforOpenCollection.click();
+//		MobileElement clickOnProceedBtn = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed_");
+//		clickOnProceedBtn.click();
+
 	}
-	
+
 	@Test(description= "To verify and select Reason for Open Deliveries ",priority= 3)
 
 	public void ReturntoHubSelectReasonforNextCollectionEnterINvalidPodNO () throws InterruptedException {
-	
-	//second reco
-	
-	MobileElement el12 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_logout");
-	el12.click();
-	MobileElement el13 = (MobileElement) driver.findElementById("android:id/button2");
-	el13.click();
+
+		//second reco
+		MobileElement el7 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed_");
+		el7.click();
+		MobileElement clickOnbtnLogout1 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_logout");
+		clickOnbtnLogout1.click();
+		MobileElement clickOnbtnOK = (MobileElement) driver.findElementById("android:id/button2");
+		clickOnbtnOK.click();
 	}
+
 	@Test(description= "To verify and select Reason for Open Deliveries ",priority= 4)
 
-	public void ReturntoHubSelectReasonforNextCollectionEntervalidPodNO () throws InterruptedException {
-	MobileElement el14 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_logout");
-	el14.click();
-	MobileElement el15 = (MobileElement) driver.findElementById("com.ram.courier:id/et_pod_bag_no");
-	el15.sendKeys("POD12345678");
-	
+	public void ReturntoHubSelectReasonforNextCollectionEnterValidPodNO () throws InterruptedException {
+
+//		MobileElement el8 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_logout");
+//		el8.click();
+		MobileElement el9 = (MobileElement) driver.findElementById("com.ram.courier:id/et_pod_bag_no");
+		el9.click();
+		el9.sendKeys("POD12345678");
+
 	}
-	
+
 	@Test(description= "To verify and select Reason for Open Deliveries ",priority= 5)
 
 	public void ReturntoHubScanInvalidWaybillNo () throws InterruptedException {
-	
-driver.findElementById("com.ram.courier:id/btn_scan_waybill").click();
-driver.findElementById("android:id/button1").click();
-	
-	
+
+
+		MobileElement el10 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_scan_waybill");
+		el10.click();
+		driver.findElementById("android:id/button1").click();
+
+
+
+		;
+
+//		driver.findElementById("com.ram.courier:id/btn_scan_waybill").click();
+//		driver.findElementById("android:id/button1").click();
+
+
 	}
-	
+
 	@Test(description= "To verify and select Reason for Open Deliveries ",priority= 6)
 
 	public void ReturntoHubScanValidWaybillNo () throws InterruptedException {
-	
-driver.findElementById("com.ram.courier:id/btn_scan_waybill").click();
+
+		MobileElement el10 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_scan_waybill");
+		el10.click();
 
 
-MobileElement el2 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_logout");
-el2.click();
-MobileElement el3 = (MobileElement) driver.findElementById("android:id/button2");
-el3.click();
-MobileElement el4 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_logout");
-el4.click();
-MobileElement el5 = (MobileElement) driver.findElementById("android:id/button1");
-el5.click();
+		MobileElement el11 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_logout");
+		el11.click();
+		MobileElement el12 = (MobileElement) driver.findElementById("android:id/button1");
+		el12.click();
+
+
+
+//		driver.findElementById("com.ram.courier:id/btn_scan_waybill").click();
+//
+//
+//		MobileElement clickOnBtnLogout1 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_logout");
+//		clickOnBtnLogout1.click();
+//		MobileElement clickOnBtnOK = (MobileElement) driver.findElementById("android:id/button2");
+//		clickOnBtnOK.click();
+//		MobileElement clickOnBtnLogout2 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_logout");
+//		clickOnBtnLogout2.click();
+//		MobileElement clickOnBtnOK1 = (MobileElement) driver.findElementById("android:id/button1");
+//		clickOnBtnOK1.click();
 
 
 	}
-	
-	}
+
+
+}
 
 	
 	

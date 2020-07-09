@@ -60,11 +60,11 @@ public class OtrAdhocParcel {
 		cap.setCapability("platformVersion", "9");
 		cap.setCapability("deviceName", "Vivo");
 		cap.setCapability("udid", "8SSCCMUCKV7SIVRG");  
-		cap.setCapability("autoGrantPermission", "true");
+//		cap.setCapability("autoGrantPermission", "true");
 		cap.setCapability("appPackage", "com.ram.courier");
 		cap.setCapability("appActivity", "com.ram.courier.activities.SplashScreen");
-		//			 cap.setCapability("noReset", "true");
-		//			cap.setCapability("fullReset", "false");
+		cap.setCapability("noReset", "true");
+		cap.setCapability("fullReset", "false");
 
 
 		driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);

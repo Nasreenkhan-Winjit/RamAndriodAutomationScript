@@ -61,7 +61,7 @@ public void beforeClass() throws MalformedURLException, InterruptedException  {
 		cap.setCapability("platformVersion", "9");
 		cap.setCapability("deviceName", "Vivo");
 		cap.setCapability("udid", "8SSCCMUCKV7SIVRG");  
-		cap.setCapability("autoGrantPermission", "true");
+//		cap.setCapability("autoGrantPermission", "true");
 		cap.setCapability("appPackage", "com.ram.courier");
 		 cap.setCapability("appActivity", "com.ram.courier.activities.SplashScreen");
 		 cap.setCapability("noReset", "true");
