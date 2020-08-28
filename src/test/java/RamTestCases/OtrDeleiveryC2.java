@@ -133,7 +133,7 @@ public class OtrDeleiveryC2 {
 
 	public void DeliverywithRuleNo7Step3ValidOTP() throws InterruptedException {	
 
-		driver.findElementById("com.ram.courier:id/et_otp").sendKeys("12189");
+		driver.findElementById("com.ram.courier:id/et_otp").sendKeys("7444");
 		driver.findElementById("com.ram.courier:id/btn_scan_proceed").click();
 		driver.findElementById("com.ram.courier:id/et_receiver_name").sendKeys("AutoTest");
 		driver.findElementById("com.ram.courier:id/btn_proceed").click();
@@ -206,7 +206,7 @@ public class OtrDeleiveryC2 {
 		MobileElement el5 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_no");
 		el5.click();
 		MobileElement el6 = (MobileElement) driver.findElementById("com.ram.courier:id/et_otp");
-		el6.sendKeys("4884");
+		el6.sendKeys("4914");
 		MobileElement el7 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
 		el7.click();
 		MobileElement el8 = (MobileElement) driver.findElementById("com.ram.courier:id/et_name");
@@ -244,17 +244,17 @@ public class OtrDeleiveryC2 {
 		MobileElement el8 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_no");
 		el8.click();
 		MobileElement el9 = (MobileElement) driver.findElementById("com.ram.courier:id/et_otp");
-		el9.sendKeys("4640");
+		el9.sendKeys("9856");
 		MobileElement el10 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_scan_proceed");
 		el10.click();
 		MobileElement el11 = (MobileElement) driver.findElementById("com.ram.courier:id/et_receiver_name");
 		el11.sendKeys("AutoTestName");
 		MobileElement el12 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
 		el12.click();
-		MobileElement el13 = (MobileElement) driver.findElementById("android:id/button1");
-		el13.click();
-		MobileElement el14 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
-		el14.click();
+//		MobileElement el13 = (MobileElement) driver.findElementById("android:id/button1");
+//		el13.click();
+//		MobileElement el14 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
+//		el14.click();
 
 	}
 

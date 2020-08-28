@@ -151,8 +151,7 @@ public class OtrReturnToHub {
 		el7.click();
 		MobileElement clickOnbtnLogout1 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_logout");
 		clickOnbtnLogout1.click();
-		MobileElement clickOnbtnOK = (MobileElement) driver.findElementById("android:id/button2");
-		clickOnbtnOK.click();
+
 	}
 
 	@Test(description= "To verify and select Reason for Open Deliveries ",priority= 4)

@@ -67,7 +67,7 @@ public void beforeClass() throws MalformedURLException, InterruptedException  {
 		 cap.setCapability("appActivity", "com.ram.courier.activities.SplashScreen");
 		 cap.setCapability("noReset", "true");
 		cap.setCapability("fullReset", "false");
-//	cap.setCapability("app","C:/Users/nasreenk/Desktop/Diawi/RAMMobile_UatDebug-2.9.38.apk" );
+	cap.setCapability("app","C:/Users/nasreenk/Desktop/Diawi/RAMMobile_UatDebug-2.9.44.apk" );
 		
 		 driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
 		 driver.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS) ;
@@ -174,7 +174,7 @@ public void LoginValidCrewMemberID() throws InterruptedException {
 	  MobileElement el12 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit_member");
 	  el12.click();
 	  MobileElement el13 = (MobileElement) driver.findElementById("com.ram.courier:id/et_sa_no");
-	  el13.sendKeys("7009155154085");
+	  el13.sendKeys("9512136290082");
 	  MobileElement el14 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit_member");
 	  el14.click();
 	  
@@ -211,7 +211,7 @@ public void InvalidManifestID() throws InterruptedException {
 	  el21.click();
 	  
 }
-@Test(description= "EnterMannually InvalidManifest ID", priority = 8 )
+@Test(description= "EnterMannually validManifest ID", priority = 8 )
 
 public void ValidManifestID() throws InterruptedException {		  
 	    

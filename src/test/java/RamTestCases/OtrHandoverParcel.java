@@ -191,38 +191,38 @@ public class OtrHandoverParcel {
 
 
 
-		MobileElement el161 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.RelativeLayout");
-		el161.click();
-		MobileElement el171 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[5]");
-		el171.click();
-		MobileElement el181 = (MobileElement) driver.findElementById("com.ram.courier:id/cb_select_consignment");
-		el181.click();
-		MobileElement el191 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_next_deliveries");
-		el191.click();
-		MobileElement el201 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_non_delivery");
-		el201.click();
-		MobileElement el211 = (MobileElement) driver.findElementById("com.ram.courier:id/tv_non_delivery_option");
-		el211.click();
-		MobileElement el221 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
-		el221.click();
-		MobileElement el231 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.LinearLayout/android.widget.TextView[1]");
-		el231.click();
-		MobileElement el241 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[3]");
-		el241.click();
-		MobileElement el251= (MobileElement) driver.findElementById("com.ram.courier:id/tv_detailed_reason");
-		el251.click();
-		MobileElement el261 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[2]");
-		el261.click();
-		MobileElement el271 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit_reason");
-		el271.click();
-		MobileElement el281 = (MobileElement) driver.findElementById("android:id/button1");
-		el281.click();
-		MobileElement el291 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_home_toolbar");
-		el291.click();
+//		MobileElement el161 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.RelativeLayout");
+//		el161.click();
+//		MobileElement el171 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[5]");
+//		el171.click();
+//		MobileElement el181 = (MobileElement) driver.findElementById("com.ram.courier:id/cb_select_consignment");
+//		el181.click();
+//		MobileElement el191 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_next_deliveries");
+//		el191.click();
+//		MobileElement el201 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_non_delivery");
+//		el201.click();
+//		MobileElement el211 = (MobileElement) driver.findElementById("com.ram.courier:id/tv_non_delivery_option");
+//		el211.click();
+//		MobileElement el221 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
+//		el221.click();
+//		MobileElement el231 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.LinearLayout/android.widget.TextView[1]");
+//		el231.click();
+//		MobileElement el241 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[3]");
+//		el241.click();
+//		MobileElement el251= (MobileElement) driver.findElementById("com.ram.courier:id/tv_detailed_reason");
+//		el251.click();
+//		MobileElement el261 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[2]");
+//		el261.click();
+//		MobileElement el271 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit_reason");
+//		el271.click();
+//		MobileElement el281 = (MobileElement) driver.findElementById("android:id/button1");
+//		el281.click();
+//		MobileElement el291 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_home_toolbar");
+//		el291.click();
 	}
 
 
-	@Test(description= "Validate with second ID",priority= 4)
+	@Test(description= "Validate with second ID",priority= 3)
 
 	public void ValidHPParcelasignstep1 () throws InterruptedException {
 
@@ -240,7 +240,7 @@ public class OtrHandoverParcel {
 	}
 
 
-	@Test(description= "Validate assign Step2",priority= 5)
+	@Test(description= "Validate assign Step2",priority= 4)
 
 	public void ValidHPParcelasignstep2 () throws InterruptedException {
 

@@ -238,7 +238,7 @@ public class OtrCollection {
 //		el18.click();
 //	}
 
-	@Test(description= "Reason-Collection Alredy collected ' ",priority= 4)
+	@Test(description= "Reason-Collection Already collected ' ",priority= 4)
 
 	public void CaseToVerifySelectConsignmentforMissedCollectionReason1n2() throws InterruptedException {
 
@@ -265,7 +265,7 @@ public class OtrCollection {
 //		el25.click();
 	}
 
-	@Test(description= "Reason-Collection Alredy collected ' ",priority= 5)
+	@Test(description= "Reason-Collection Already collected ' ",priority= 5)
 
 	public void CaseToVerifySelectConsignmentforMissedCollectionReason3() throws InterruptedException {
 
@@ -277,8 +277,8 @@ public class OtrCollection {
 		el9.click();
 		MobileElement el10 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_missing_collection");
 		el10.click();
-		MobileElement el11 = (MobileElement) driver.findElementById("android:id/button1");
-		el11.click();
+//		MobileElement el11 = (MobileElement) driver.findElementById("android:id/button1");
+//		el11.click();
 
 //		MobileElement el26 = (MobileElement) driver.findElementById("com.ram.courier:id/tv_select_reason");
 //		el26.click();
@@ -311,6 +311,7 @@ public class OtrCollection {
 		el3.click();
 		MobileElement el4 = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
 		el4.sendKeys("RW1032121.001");
+		// D710600011107.001,  RW1032121
 		MobileElement el5 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
 		el5.click();
 		MobileElement el6 = (MobileElement) driver.findElementById("android:id/button1");
@@ -376,10 +377,10 @@ public class OtrCollection {
 		el12.click();
 		MobileElement el13 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_no");
 		el13.click();
-		MobileElement el15 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_save");
-		el15.click();
-		MobileElement el16 = (MobileElement) driver.findElementById("android:id/button1");
-		el16.click();
+//		MobileElement el15 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_save");
+//		el15.click();
+////		MobileElement el16 = (MobileElement) driver.findElementById("android:id/button1");
+////		el16.click();
 		MobileElement el14 = (MobileElement) driver.findElementById("com.ram.courier:id/et_collected_from");
 		el14.sendKeys("Tester");
 

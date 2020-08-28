@@ -1,0 +1,325 @@
+2020-08-27 14:32:17 : Update Login data 0
+2020-08-27 14:32:17 : Update driver 0
+2020-08-27 14:32:17 : Update Del veh data 0
+2020-08-27 14:32:17 : Update Non delivery 0
+2020-08-27 14:32:17 : Update Delivery 0
+2020-08-27 14:32:17 : Update delivered override 0
+2020-08-27 14:32:17 : Update Handovers 0
+2020-08-27 14:32:17 : update Collected Parcel 0
+2020-08-27 14:32:17 : Update collected 0
+2020-08-27 14:32:17 : Update collections union 0
+2020-08-27 14:32:17 : Update delivered extra requirement 0
+2020-08-27 14:32:17 : Update missed collection 0
+2020-08-27 14:32:17 : Update POD return POD 0
+2020-08-27 14:32:17 : Update POD Missed 0
+2020-08-27 14:32:17 : Update POD return 0
+2020-08-27 14:32:17 : Session update 0
+2020-08-27 14:32:17 : Update data file upload
+2020-08-27 14:35:16 : Update Login data 0
+2020-08-27 14:35:16 : Update driver 0
+2020-08-27 14:35:17 : Update Del veh data 0
+2020-08-27 14:35:17 : Update Non delivery 0
+2020-08-27 14:35:17 : Update Delivery 0
+2020-08-27 14:35:17 : Update delivered override 0
+2020-08-27 14:35:17 : Update Handovers 0
+2020-08-27 14:35:17 : update Collected Parcel 0
+2020-08-27 14:35:17 : Update collected 0
+2020-08-27 14:35:17 : Update collections union 0
+2020-08-27 14:35:17 : Update delivered extra requirement 0
+2020-08-27 14:35:17 : Update missed collection 0
+2020-08-27 14:35:17 : Update POD return POD 0
+2020-08-27 14:35:17 : Update POD Missed 0
+2020-08-27 14:35:17 : Update POD return 0
+2020-08-27 14:35:17 : Session update 0
+2020-08-27 14:35:17 : Update data file upload
+2020-08-27 14:38:16 : Update Login data 0
+2020-08-27 14:38:17 : Update driver 0
+2020-08-27 14:38:17 : Update Del veh data 0
+2020-08-27 14:38:17 : Update Non delivery 0
+2020-08-27 14:38:17 : Update Delivery 0
+2020-08-27 14:38:17 : Update delivered override 0
+2020-08-27 14:38:17 : Update Handovers 0
+2020-08-27 14:38:17 : update Collected Parcel 0
+2020-08-27 14:38:17 : Update collected 0
+2020-08-27 14:38:17 : Update collections union 0
+2020-08-27 14:38:17 : Update delivered extra requirement 0
+2020-08-27 14:38:17 : Update missed collection 0
+2020-08-27 14:38:17 : Update POD return POD 0
+2020-08-27 14:38:17 : Update POD Missed 0
+2020-08-27 14:38:17 : Update POD return 0
+2020-08-27 14:38:17 : Session update 0
+2020-08-27 14:38:17 : Update data file upload
+2020-08-27 14:41:16 : Update Login data 0
+2020-08-27 14:41:17 : Update driver 0
+2020-08-27 14:41:17 : Update Del veh data 0
+2020-08-27 14:41:17 : Update Non delivery 0
+2020-08-27 14:41:17 : Update Delivery 0
+2020-08-27 14:41:17 : Update delivered override 0
+2020-08-27 14:41:17 : Update Handovers 0
+2020-08-27 14:41:17 : update Collected Parcel 0
+2020-08-27 14:41:17 : Update collected 0
+2020-08-27 14:41:17 : Update collections union 0
+2020-08-27 14:41:17 : Update delivered extra requirement 0
+2020-08-27 14:41:17 : Update missed collection 0
+2020-08-27 14:41:17 : Update POD return POD 0
+2020-08-27 14:41:17 : Update POD Missed 0
+2020-08-27 14:41:17 : Update POD return 0
+2020-08-27 14:41:17 : Session update 0
+2020-08-27 14:41:17 : Update data file upload
+2020-08-27 14:51:21 : Update Login data 0
+2020-08-27 14:51:21 : Update driver 0
+2020-08-27 14:51:21 : Update Del veh data 0
+2020-08-27 14:51:21 : Update Non delivery 0
+2020-08-27 14:51:21 : Update Delivery 0
+2020-08-27 14:51:21 : Update delivered override 0
+2020-08-27 14:51:21 : Update Handovers 0
+2020-08-27 14:51:21 : update Collected Parcel 0
+2020-08-27 14:51:21 : Update collected 0
+2020-08-27 14:51:21 : Update collections union 0
+2020-08-27 14:51:21 : Update delivered extra requirement 0
+2020-08-27 14:51:21 : Update missed collection 0
+2020-08-27 14:51:21 : Update POD return POD 0
+2020-08-27 14:51:21 : Update POD Missed 0
+2020-08-27 14:51:21 : Update POD return 0
+2020-08-27 14:51:21 : Session update 0
+2020-08-27 14:51:21 : Update data file upload
+2020-08-27 14:52:11 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"675cabeb-d9e7-4b6a-9c29-a15752b38136","SessionID":"bd02228d-7ee3-42c5-8e79-676d20d7964c","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 14:52:13 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"00b9d07f-3080-4a34-b95f-4b98cf9a3de3","SessionID":"bd02228d-7ee3-42c5-8e79-676d20d7964c","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:18:18 : Update Login data 2
+2020-08-27 15:21:18 : Update Login data 2
+2020-08-27 15:21:24 : onSuccess : {"AdditionalInformation":[{"SessionID":"bd02228d-7ee3-42c5-8e79-676d20d7964c","DeviceID":"869950048920256","EmployeeID":"7301310157081","Rowguid":"5e3ce7b0-da0f-4c34-872e-19cedca8b371","IsSaved":true,"Result":""},{"SessionID":"bd02228d-7ee3-42c5-8e79-676d20d7964c","DeviceID":"869950048920256","EmployeeID":"7009155154085","Rowguid":"adc8fb34-50ad-4316-9d64-9d2dba44181b","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:21:24 : Update driver 2
+2020-08-27 15:21:26 : onSuccess : {"AdditionalInformation":[{"SessionID":"bd02228d-7ee3-42c5-8e79-676d20d7964c","DeviceID":"869950048920256","DriverID":"7301310157081","Rowguid":"dffe17a8-8b47-4455-a1a4-02eefcfcc8c7","IsSaved":true,"Result":""},{"SessionID":"bd02228d-7ee3-42c5-8e79-676d20d7964c","DeviceID":"869950048920256","DriverID":"7009155154085","Rowguid":"777ad34a-ace3-4f1d-95d2-952aa42250c7","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:21:26 : Update Del veh data 1
+2020-08-27 15:21:27 : onSuccess : {"AdditionalInformation":[{"SessionID":"bd02228d-7ee3-42c5-8e79-676d20d7964c","DeviceID":"869950048920256","DelVehDepID":"DDISA15816827824","Rowguid":"ff791cd0-7710-44b6-a707-d5904c166a13","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:21:27 : Update Non delivery 0
+2020-08-27 15:21:27 : Update Delivery 0
+2020-08-27 15:21:27 : Update delivered override 0
+2020-08-27 15:21:28 : Update Handovers 0
+2020-08-27 15:21:28 : update Collected Parcel 0
+2020-08-27 15:21:28 : Update collected 0
+2020-08-27 15:21:28 : Update collections union 0
+2020-08-27 15:21:28 : Update delivered extra requirement 0
+2020-08-27 15:21:28 : Update missed collection 0
+2020-08-27 15:21:28 : Update POD return POD 0
+2020-08-27 15:21:28 : Update POD Missed 0
+2020-08-27 15:21:28 : Update POD return 0
+2020-08-27 15:21:28 : Session update 1
+2020-08-27 15:21:30 : onSuccess : {"AdditionalInformation":[{"SessionID":"bd02228d-7ee3-42c5-8e79-676d20d7964c","DeviceID":"869950048920256","Rowguid":"93edc532-e06f-4a0f-b22f-de5245c7d3af","IsSaved":true,"Result":"Session updated successfully"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:21:30 : Update data file upload
+2020-08-27 15:22:53 : Update data file upload
+2020-08-27 15:24:08 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"4c7cb07b-49b2-46d5-b46f-f1df5c2a32ad","SessionID":"bd02228d-7ee3-42c5-8e79-676d20d7964c","DeviceID":"869950048920256","Referencing":"AFRI02-00021571","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:24:08 : updateRecordStateForDataFile 4c7cb07b-49b2-46d5-b46f-f1df5c2a32ad RecordState=1
+2020-08-27 15:25:53 : Update Non delivery 1
+2020-08-27 15:25:55 : onSuccess : {"AdditionalInformation":[{"SessionID":"bd02228d-7ee3-42c5-8e79-676d20d7964c","DeviceID":"869950048920256","ConsignmentID":"A0350538","rowguid":"8bed7eed-5253-4d5e-b260-5ae8f1cf9e60","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:25:55 : updateRecordState NonDelivery 8bed7eed-5253-4d5e-b260-5ae8f1cf9e60 RecordState=1
+2020-08-27 15:25:55 : Update Delivery 1
+2020-08-27 15:25:57 : onSuccess : {"AdditionalInformation":[{"SessionID":"bd02228d-7ee3-42c5-8e79-676d20d7964c","DeviceID":"869950048920256","Rowguid":"64b0adf6-4b89-48f8-8d3c-6c7f6643f4af","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:25:57 : updateRecordState Delivered 64b0adf6-4b89-48f8-8d3c-6c7f6643f4af RecordState=1
+2020-08-27 15:25:57 : Update data file upload
+2020-08-27 15:28:53 : Update data file upload
+2020-08-27 15:31:53 : Update data file upload
+2020-08-27 15:34:53 : Update data file upload
+2020-08-27 15:37:53 : Update data file upload
+2020-08-27 15:40:53 : Update data file upload
+2020-08-27 15:46:37 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"004f1efc-f9ce-49c1-85e2-1e15b3f30dd9","SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:46:37 : updateRecordStateForDataFile 004f1efc-f9ce-49c1-85e2-1e15b3f30dd9 RecordState=1
+2020-08-27 15:46:44 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"830384ff-d58f-4e99-808b-8d549f5275a2","SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:46:44 : updateRecordStateForDataFile 830384ff-d58f-4e99-808b-8d549f5275a2 RecordState=1
+2020-08-27 15:48:12 : Update Login data 2
+2020-08-27 15:48:14 : onSuccess : {"AdditionalInformation":[{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","EmployeeID":"7301310157081","Rowguid":"93fb97ca-25ff-4373-94bf-cff8323bd7e1","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","EmployeeID":"9512136290082","Rowguid":"9e8ae443-8e1c-476a-8f6d-8d4585dc1c8c","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+{"Sync_LoginAudit":[{"RecordDT":"2020-08-27 15:46:13","RecordUpdateDT":"2020-08-27 15:46:13","LoginDT":"2020-08-27 15:46:13","LogoutDT":"","SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","rowguid":"93fb97ca-25ff-4373-94bf-cff8323bd7e1","LoginLat":19.9854218,"LoginLon":73.7245357,"LogoutLat":0,"LogoutLon":0,"RecordState":0,"HasIDCard":0,"EmployeeID":"7301310157081","SignatureFilename":"20200827154613.jpg"},{"RecordDT":"2020-08-27 15:46:21","RecordUpdateDT":"2020-08-27 15:46:21","LoginDT":"2020-08-27 15:46:21","LogoutDT":"","SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","rowguid":"9e8ae443-8e1c-476a-8f6d-8d4585dc1c8c","LoginLat":19.9854218,"LoginLon":73.7245357,"LogoutLat":0,"LogoutLon":0,"RecordState":0,"HasIDCard":0,"EmployeeID":"9512136290082","SignatureFilename":"20200827154621.jpg"}]}
+2020-08-27 15:48:14 : updateRecordState LoginAudit 93fb97ca-25ff-4373-94bf-cff8323bd7e1 RecordState=1
+2020-08-27 15:48:14 : updateRecordState LoginAudit 9e8ae443-8e1c-476a-8f6d-8d4585dc1c8c RecordState=1
+2020-08-27 15:48:14 : Update driver 2
+2020-08-27 15:49:36 : Update driver 2
+2020-08-27 15:49:37 : onSuccess : {"AdditionalInformation":[{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","DriverID":"7301310157081","Rowguid":"b8c189f8-e645-43df-93fa-6f1a3b64f561","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","DriverID":"9512136290082","Rowguid":"84b918db-1b05-4325-b79a-f79dd6b3f13a","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:49:37 : updateRecordState Driver b8c189f8-e645-43df-93fa-6f1a3b64f561 RecordState=1
+2020-08-27 15:49:37 : updateRecordState Driver 84b918db-1b05-4325-b79a-f79dd6b3f13a RecordState=1
+2020-08-27 15:49:37 : Update Del veh data 1
+2020-08-27 15:49:39 : onSuccess : {"AdditionalInformation":[{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","DelVehDepID":"DDISA15816827824","Rowguid":"fe2c1010-457a-47a1-8fd7-569ae1e2298d","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:49:39 : updateRecordState DelVehDep fe2c1010-457a-47a1-8fd7-569ae1e2298d RecordState=1
+2020-08-27 15:49:39 : Session update 1
+2020-08-27 15:49:42 : onSuccess : {"AdditionalInformation":[{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"d516a962-630d-4efb-b41a-21061f7a2452","IsSaved":true,"Result":"Session updated successfully"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:49:42 : updateRecordState Session d516a962-630d-4efb-b41a-21061f7a2452 RecordState=1
+2020-08-27 15:49:42 : Update data file upload
+2020-08-27 15:50:07 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"b609752a-ad61-4e60-8b62-531362f3c97a","SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Referencing":"A0350538","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:50:07 : updateRecordStateForDataFile b609752a-ad61-4e60-8b62-531362f3c97a RecordState=1
+2020-08-27 15:50:43 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"5e07b836-183d-4d9b-8b02-621a3145f6e0","SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Referencing":"PLAT05-92234567","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:50:43 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"87f887ce-385e-4a4a-82b8-0d003f0dfa48","SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Referencing":"PLAT05-90023456","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:50:43 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"95bee236-c587-4e1b-a1e5-e97e3b4ce57e","SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Referencing":"PLAT05-94123456","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:50:43 : updateRecordStateForDataFile 87f887ce-385e-4a4a-82b8-0d003f0dfa48 RecordState=1
+2020-08-27 15:50:43 : updateRecordStateForDataFile 5e07b836-183d-4d9b-8b02-621a3145f6e0 RecordState=1
+2020-08-27 15:50:43 : updateRecordStateForDataFile 95bee236-c587-4e1b-a1e5-e97e3b4ce57e RecordState=1
+2020-08-27 15:55:52 : Update Non delivery 1
+2020-08-27 15:55:54 : onSuccess : {"AdditionalInformation":[{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","ConsignmentID":"AFRI02-00021571","rowguid":"3f38f768-5291-422d-8acb-c82f26769002","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:55:54 : updateRecordState NonDelivery 3f38f768-5291-422d-8acb-c82f26769002 RecordState=1
+2020-08-27 15:55:54 : Update Delivery 4
+2020-08-27 15:55:58 : onSuccess : {"AdditionalInformation":[{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"c2fa34b9-5e9e-4060-b508-6c168a84c969","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"8932d60e-768a-4878-8f25-82d378dd57c1","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"0284746f-98ae-47e9-b202-3e11411c9074","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"3b757591-6035-414e-b42c-01c171249b1f","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:55:58 : updateRecordState Delivered c2fa34b9-5e9e-4060-b508-6c168a84c969 RecordState=1
+2020-08-27 15:55:58 : updateRecordState Delivered 8932d60e-768a-4878-8f25-82d378dd57c1 RecordState=1
+2020-08-27 15:55:58 : updateRecordState Delivered 0284746f-98ae-47e9-b202-3e11411c9074 RecordState=1
+2020-08-27 15:55:58 : updateRecordState Delivered 3b757591-6035-414e-b42c-01c171249b1f RecordState=1
+2020-08-27 15:55:58 : Update delivered extra requirement 3
+2020-08-27 15:56:02 : onSuccess : {"AdditionalInformation":[{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"7a4d634f-3a21-4533-8e0c-38d160cfb582","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"e0f6d1df-b015-4f5a-ae79-0eab66f8aa75","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"97a922d7-6488-4114-af4d-0d6aec36bd20","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:56:02 : updateRecordState Delivered_ExtraRequirements 7a4d634f-3a21-4533-8e0c-38d160cfb582 RecordState=1
+2020-08-27 15:56:02 : updateRecordState Delivered_ExtraRequirements e0f6d1df-b015-4f5a-ae79-0eab66f8aa75 RecordState=1
+2020-08-27 15:56:02 : updateRecordState Delivered_ExtraRequirements 97a922d7-6488-4114-af4d-0d6aec36bd20 RecordState=1
+2020-08-27 15:56:02 : Update data file upload
+2020-08-27 15:56:14 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"953eb368-02be-4333-a845-634e43c23105","SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Referencing":"W0707910","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:56:14 : updateRecordStateForDataFile 953eb368-02be-4333-a845-634e43c23105 RecordState=1
+2020-08-27 15:56:34 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"a28d21cf-eea1-49e8-97ef-053d711fc9a9","SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Referencing":"J2081929","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:56:34 : updateRecordStateForDataFile a28d21cf-eea1-49e8-97ef-053d711fc9a9 RecordState=1
+2020-08-27 15:57:06 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"44cb962c-2054-4d0a-9844-50fb3f579904","SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Referencing":"K1781740","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:57:06 : updateRecordStateForDataFile 44cb962c-2054-4d0a-9844-50fb3f579904 RecordState=1
+2020-08-27 15:57:27 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"4e75496a-6b3c-421c-bbba-a1c7fe6de342","SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Referencing":"RW18220294","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:57:27 : updateRecordStateForDataFile 4e75496a-6b3c-421c-bbba-a1c7fe6de342 RecordState=1
+2020-08-27 15:58:47 : Update Non delivery 1
+2020-08-27 15:58:49 : onSuccess : {"AdditionalInformation":[{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","ConsignmentID":"RW18220294","rowguid":"de9fb817-382d-4383-af7f-c8afe5da3134","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:58:49 : updateRecordState NonDelivery de9fb817-382d-4383-af7f-c8afe5da3134 RecordState=1
+2020-08-27 15:58:49 : Update Delivery 5
+2020-08-27 15:58:51 : onSuccess : {"AdditionalInformation":[{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"75a214a3-09cb-460e-95b8-117d87ad7dc0","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"b177c832-3c64-4338-b484-1c21b287219d","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"d113bc43-7e31-497b-8e17-ade23b1748e2","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"f943298a-bc69-43eb-b792-ee3338310f54","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"a5f89afb-c702-41ea-901f-ff06a02a413e","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:58:51 : updateRecordState Delivered 75a214a3-09cb-460e-95b8-117d87ad7dc0 RecordState=1
+2020-08-27 15:58:51 : updateRecordState Delivered b177c832-3c64-4338-b484-1c21b287219d RecordState=1
+2020-08-27 15:58:51 : updateRecordState Delivered d113bc43-7e31-497b-8e17-ade23b1748e2 RecordState=1
+2020-08-27 15:58:51 : updateRecordState Delivered f943298a-bc69-43eb-b792-ee3338310f54 RecordState=1
+2020-08-27 15:58:51 : updateRecordState Delivered a5f89afb-c702-41ea-901f-ff06a02a413e RecordState=1
+2020-08-27 15:58:51 : Update delivered override 3
+2020-08-27 15:58:53 : onSuccess : {"AdditionalInformation":[{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"766896b9-f5c1-4078-bb99-67bcdef4e7c8","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"456cde4c-27b5-4723-b735-3f95d81e1f3c","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"16c4f205-83fe-4a86-8883-5871406d51f2","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:58:53 : updateRecordState Delivered_Overrides 766896b9-f5c1-4078-bb99-67bcdef4e7c8 RecordState=1
+2020-08-27 15:58:53 : updateRecordState Delivered_Overrides 456cde4c-27b5-4723-b735-3f95d81e1f3c RecordState=1
+2020-08-27 15:58:53 : updateRecordState Delivered_Overrides 16c4f205-83fe-4a86-8883-5871406d51f2 RecordState=1
+2020-08-27 15:58:53 : Update delivered extra requirement 7
+2020-08-27 15:58:56 : onSuccess : {"AdditionalInformation":[{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"72737076-243a-4122-8201-6af5f01a2809","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"871a4f0e-dfd1-4f22-aabe-89c508f4ed01","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"c524ae52-d1b8-4ea2-a0bc-3abc4c692b87","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"648a6627-3f86-4140-9e8e-a89e047edf7f","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"2e9ec387-46d8-4342-8c59-a7787f167cf0","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"659ad1a4-f8a7-4279-9367-7256e422204c","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Rowguid":"eec1789e-ae4a-4d85-9838-5c5de541b45a","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 15:58:56 : updateRecordState Delivered_ExtraRequirements 72737076-243a-4122-8201-6af5f01a2809 RecordState=1
+2020-08-27 15:58:56 : updateRecordState Delivered_ExtraRequirements 871a4f0e-dfd1-4f22-aabe-89c508f4ed01 RecordState=1
+2020-08-27 15:58:56 : updateRecordState Delivered_ExtraRequirements c524ae52-d1b8-4ea2-a0bc-3abc4c692b87 RecordState=1
+2020-08-27 15:58:56 : updateRecordState Delivered_ExtraRequirements 648a6627-3f86-4140-9e8e-a89e047edf7f RecordState=1
+2020-08-27 15:58:56 : updateRecordState Delivered_ExtraRequirements 2e9ec387-46d8-4342-8c59-a7787f167cf0 RecordState=1
+2020-08-27 15:58:56 : updateRecordState Delivered_ExtraRequirements 659ad1a4-f8a7-4279-9367-7256e422204c RecordState=1
+2020-08-27 15:58:56 : updateRecordState Delivered_ExtraRequirements eec1789e-ae4a-4d85-9838-5c5de541b45a RecordState=1
+2020-08-27 15:58:56 : Update data file upload
+2020-08-27 16:00:16 : Update Login data 1
+2020-08-27 16:00:18 : onSuccess : {"AdditionalInformation":[{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","EmployeeID":"7301310157081","Rowguid":"93fb97ca-25ff-4373-94bf-cff8323bd7e1","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+{"Sync_LoginAudit":[{"RecordDT":"2020-08-27 15:46:13","RecordUpdateDT":"2020-08-27 15:58:57","LoginDT":"2020-08-27 15:46:13","LogoutDT":"2020-08-27 15:58:57","SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","rowguid":"93fb97ca-25ff-4373-94bf-cff8323bd7e1","LoginLat":19.9854218,"LoginLon":73.7245357,"LogoutLat":19.9854226,"LogoutLon":73.7245359,"RecordState":0,"HasIDCard":0,"EmployeeID":"7301310157081","SignatureFilename":"20200827154613.jpg"}]}
+2020-08-27 16:00:18 : updateRecordState LoginAudit 93fb97ca-25ff-4373-94bf-cff8323bd7e1 RecordState=1
+2020-08-27 16:00:18 : Update data file upload
+2020-08-27 16:00:54 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"cba7a0de-87e2-4896-89de-de1bb140e84e","SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:00:54 : updateRecordStateForDataFile cba7a0de-87e2-4896-89de-de1bb140e84e RecordState=1
+2020-08-27 16:03:20 : Update Login data 2
+2020-08-27 16:03:22 : onSuccess : {"AdditionalInformation":[{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","EmployeeID":"7301310157081","Rowguid":"fae7a6a8-1367-4da6-b493-d7e44b93e428","IsSaved":true,"Result":""},{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","EmployeeID":"9512136290082","Rowguid":"9e8ae443-8e1c-476a-8f6d-8d4585dc1c8c","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+{"Sync_LoginAudit":[{"RecordDT":"2020-08-27 16:00:38","RecordUpdateDT":"2020-08-27 16:01:17","LoginDT":"2020-08-27 16:00:38","LogoutDT":"2020-08-27 16:01:17","SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","rowguid":"fae7a6a8-1367-4da6-b493-d7e44b93e428","LoginLat":19.9854685,"LoginLon":73.724547,"LogoutLat":19.9854226,"LogoutLon":73.7245359,"RecordState":0,"HasIDCard":0,"EmployeeID":"7301310157081","SignatureFilename":"20200827160038.jpg"},{"RecordDT":"2020-08-27 15:46:21","RecordUpdateDT":"2020-08-27 16:01:17","LoginDT":"2020-08-27 15:46:21","LogoutDT":"2020-08-27 16:01:17","SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","rowguid":"9e8ae443-8e1c-476a-8f6d-8d4585dc1c8c","LoginLat":19.9854218,"LoginLon":73.7245357,"LogoutLat":19.9854226,"LogoutLon":73.7245359,"RecordState":0,"HasIDCard":0,"EmployeeID":"9512136290082","SignatureFilename":"20200827154621.jpg"}]}
+2020-08-27 16:03:22 : updateRecordState LoginAudit fae7a6a8-1367-4da6-b493-d7e44b93e428 RecordState=1
+2020-08-27 16:03:22 : updateRecordState LoginAudit 9e8ae443-8e1c-476a-8f6d-8d4585dc1c8c RecordState=1
+2020-08-27 16:03:22 : Update driver 1
+2020-08-27 16:03:23 : onSuccess : {"AdditionalInformation":[{"SessionID":"163fa61f-db48-41a4-9df2-710f595bb4f6","DeviceID":"869950048920256","DriverID":"7301310157081","Rowguid":"24c81315-e87a-4bd1-b441-0fbd68799b8d","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:03:23 : updateRecordState Driver 24c81315-e87a-4bd1-b441-0fbd68799b8d RecordState=1
+2020-08-27 16:03:23 : Update data file upload
+2020-08-27 16:03:34 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"defdf575-e52f-4156-9073-e15ff70703f2","SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:03:34 : updateRecordStateForDataFile defdf575-e52f-4156-9073-e15ff70703f2 RecordState=1
+2020-08-27 16:03:51 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"99f85e5c-762f-487c-8f87-d19ee41ebfc0","SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:03:51 : updateRecordStateForDataFile 99f85e5c-762f-487c-8f87-d19ee41ebfc0 RecordState=1
+2020-08-27 16:06:41 : Update Login data 2
+2020-08-27 16:06:42 : onSuccess : {"AdditionalInformation":[{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","EmployeeID":"7301310157081","Rowguid":"8a7b9e2c-7f12-48f3-b23b-2d64708b6d70","IsSaved":true,"Result":""},{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","EmployeeID":"9512136290082","Rowguid":"d5ab9f89-1f92-4d4f-b04e-01b39a3296d6","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+{"Sync_LoginAudit":[{"RecordDT":"2020-08-27 16:03:32","RecordUpdateDT":"2020-08-27 16:03:32","LoginDT":"2020-08-27 16:03:32","LogoutDT":"","SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","rowguid":"8a7b9e2c-7f12-48f3-b23b-2d64708b6d70","LoginLat":19.9854216,"LoginLon":73.7245356,"LogoutLat":0,"LogoutLon":0,"RecordState":0,"HasIDCard":0,"EmployeeID":"7301310157081","SignatureFilename":"20200827160332.jpg"},{"RecordDT":"2020-08-27 16:03:38","RecordUpdateDT":"2020-08-27 16:03:38","LoginDT":"2020-08-27 16:03:38","LogoutDT":"","SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","rowguid":"d5ab9f89-1f92-4d4f-b04e-01b39a3296d6","LoginLat":19.9854216,"LoginLon":73.7245356,"LogoutLat":0,"LogoutLon":0,"RecordState":0,"HasIDCard":0,"EmployeeID":"9512136290082","SignatureFilename":"20200827160338.jpg"}]}
+2020-08-27 16:06:42 : updateRecordState LoginAudit 8a7b9e2c-7f12-48f3-b23b-2d64708b6d70 RecordState=1
+2020-08-27 16:06:42 : updateRecordState LoginAudit d5ab9f89-1f92-4d4f-b04e-01b39a3296d6 RecordState=1
+2020-08-27 16:06:42 : Update driver 2
+2020-08-27 16:06:44 : onSuccess : {"AdditionalInformation":[{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","DriverID":"7301310157081","Rowguid":"f74e26d9-2513-4618-8e67-651bb044769d","IsSaved":true,"Result":""},{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","DriverID":"9512136290082","Rowguid":"6566c525-f8c3-46a8-b620-254f4a9ec019","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:06:44 : updateRecordState Driver f74e26d9-2513-4618-8e67-651bb044769d RecordState=1
+2020-08-27 16:06:44 : updateRecordState Driver 6566c525-f8c3-46a8-b620-254f4a9ec019 RecordState=1
+2020-08-27 16:06:44 : Update Del veh data 1
+2020-08-27 16:06:46 : onSuccess : {"AdditionalInformation":[{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","DelVehDepID":"DDISA15822179704","Rowguid":"26e54368-6292-4191-90d0-dadb14535f9c","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:06:46 : updateRecordState DelVehDep 26e54368-6292-4191-90d0-dadb14535f9c RecordState=1
+2020-08-27 16:06:46 : Session update 1
+2020-08-27 16:06:48 : onSuccess : {"AdditionalInformation":[{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Rowguid":"c1d873a7-ee6d-4a53-b221-adb2d6dadc9e","IsSaved":true,"Result":"Session updated successfully"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:06:48 : updateRecordState Session c1d873a7-ee6d-4a53-b221-adb2d6dadc9e RecordState=1
+2020-08-27 16:06:48 : Update data file upload
+2020-08-27 16:07:02 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"362601f1-b3d7-4b6a-9e58-32933ceb1e20","SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Referencing":"SAISA1234567","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:07:02 : updateRecordStateForDataFile 362601f1-b3d7-4b6a-9e58-32933ceb1e20 RecordState=1
+2020-08-27 16:07:27 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"8adbd642-0425-4eca-bf0a-4b3265256971","SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Referencing":"SIDDSA01231","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:07:28 : updateRecordStateForDataFile 8adbd642-0425-4eca-bf0a-4b3265256971 RecordState=1
+2020-08-27 16:07:37 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"de2e13a4-6a1a-489b-824a-f853a71fd6fb","SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Referencing":"RW1833183111","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:07:37 : updateRecordStateForDataFile de2e13a4-6a1a-489b-824a-f853a71fd6fb RecordState=1
+2020-08-27 16:08:37 : update Collected Parcel 4
+2020-08-27 16:08:39 : onSuccess : {"AdditionalInformation":[{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Rowguid":"96c1a5bc-9758-43e5-bca9-4d14263a6ade","IsSaved":true,"Result":""},{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Rowguid":"3f4e3814-29d7-44a3-b2b8-853c85b2745c","IsSaved":true,"Result":""},{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Rowguid":"6b9b8b4b-265d-40f5-9e8f-6bf6066c484a","IsSaved":true,"Result":""},{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Rowguid":"407d0a19-1a91-4144-a106-46796f70a718","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:08:39 : updateRecordState CollectedParcel 96c1a5bc-9758-43e5-bca9-4d14263a6ade RecordState=1
+2020-08-27 16:08:39 : updateRecordState CollectedParcel 3f4e3814-29d7-44a3-b2b8-853c85b2745c RecordState=1
+2020-08-27 16:08:39 : updateRecordState CollectedParcel 6b9b8b4b-265d-40f5-9e8f-6bf6066c484a RecordState=1
+2020-08-27 16:08:39 : updateRecordState CollectedParcel 407d0a19-1a91-4144-a106-46796f70a718 RecordState=1
+2020-08-27 16:08:39 : Update collected 3
+2020-08-27 16:08:40 : onSuccess : {"AdditionalInformation":[{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Rowguid":"1ea91bd1-48e4-42f9-8328-683d086f85a3","IsSaved":true,"Result":""},{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Rowguid":"96194189-816f-40f4-803e-51f109c0850d","IsSaved":true,"Result":""},{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Rowguid":"31294f5d-9d31-4b80-bdac-9ed20159b291","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:08:40 : updateRecordState Collected 1ea91bd1-48e4-42f9-8328-683d086f85a3 RecordState=1
+2020-08-27 16:08:40 : updateRecordState Collected 96194189-816f-40f4-803e-51f109c0850d RecordState=1
+2020-08-27 16:08:40 : updateRecordState Collected 31294f5d-9d31-4b80-bdac-9ed20159b291 RecordState=1
+2020-08-27 16:08:40 : Update data file upload
+2020-08-27 16:09:03 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"38c16e50-2f1f-4c01-b3d4-648d9f96fc00","SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Referencing":"RAMS02-20054321","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:09:03 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"7bb947b0-9c29-459f-bae0-46dc6c991d66","SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Referencing":"RAMS02-20054321","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:09:03 : updateRecordStateForDataFile 38c16e50-2f1f-4c01-b3d4-648d9f96fc00 RecordState=1
+2020-08-27 16:09:03 : updateRecordStateForDataFile 7bb947b0-9c29-459f-bae0-46dc6c991d66 RecordState=1
+2020-08-27 16:09:33 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"45ca3305-929a-49cf-ac7e-e4e8c11c30a2","SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Referencing":"VSPI01-20054322","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:09:33 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"cf2149f3-66d4-4549-aa2a-0434c19f0206","SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Referencing":"VSPI01-20054322","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:09:33 : updateRecordStateForDataFile 45ca3305-929a-49cf-ac7e-e4e8c11c30a2 RecordState=1
+2020-08-27 16:09:33 : updateRecordStateForDataFile cf2149f3-66d4-4549-aa2a-0434c19f0206 RecordState=1
+2020-08-27 16:11:19 : Update Non delivery 1
+2020-08-27 16:11:25 : onSuccess : {"AdditionalInformation":[{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","ConsignmentID":"RAMS02-20054321","rowguid":"e7047392-7fdc-4672-adaa-dc8a60c1feab","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:11:25 : updateRecordState NonDelivery e7047392-7fdc-4672-adaa-dc8a60c1feab RecordState=1
+2020-08-27 16:11:25 : Update Handovers 2
+2020-08-27 16:11:28 : onSuccess : {"AdditionalInformation":[{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Rowguid":"661e43d8-9995-4bbf-b643-bb9a0da223a1","IsSaved":true,"Result":""},{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Rowguid":"4f37679c-21e4-454b-b2b9-46e31640773d","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:11:28 : updateRecordState Handover 661e43d8-9995-4bbf-b643-bb9a0da223a1 RecordState=1
+2020-08-27 16:11:28 : updateRecordState Handover 4f37679c-21e4-454b-b2b9-46e31640773d RecordState=1
+2020-08-27 16:11:28 : Update data file upload
+2020-08-27 16:14:19 : Update data file upload
+2020-08-27 16:17:19 : Update collections union 2
+2020-08-27 16:17:21 : onSuccess : {"AdditionalInformation":[{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","ServerRecordID":2632879,"rowguid":"4a41496b-ba84-4463-8525-0dd0e9e9d46a","IsSaved":true,"Result":""},{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","ServerRecordID":2632795,"rowguid":"106baf5b-256f-4aed-9e07-20922beba013","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:17:21 : updateRecordStateForCollectionUnion 4a41496b-ba84-4463-8525-0dd0e9e9d46a SyncState=1
+2020-08-27 16:17:21 : updateRecordStateForCollectionUnion 106baf5b-256f-4aed-9e07-20922beba013 SyncState=1
+2020-08-27 16:17:21 : Update data file upload
+2020-08-27 16:17:26 : Update data file upload
+2020-08-27 16:18:28 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"acbe464f-e98a-4ae6-bbd2-2d980e7739b9","SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:18:28 : updateRecordStateForDataFile acbe464f-e98a-4ae6-bbd2-2d980e7739b9 RecordState=1
+2020-08-27 16:18:29 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"ab525ce6-d39f-4d8e-b1d7-e1148a9e4f55","SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Referencing":"RW1032121","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:18:29 : updateRecordStateForDataFile ab525ce6-d39f-4d8e-b1d7-e1148a9e4f55 RecordState=1
+2020-08-27 16:19:35 : update Collected Parcel 1
+2020-08-27 16:19:37 : onSuccess : {"AdditionalInformation":[{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Rowguid":"d7305e08-a68e-4c34-a22e-ee20394f916b","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:19:37 : updateRecordState CollectedParcel d7305e08-a68e-4c34-a22e-ee20394f916b RecordState=1
+2020-08-27 16:19:37 : Update collected 1
+2020-08-27 16:19:39 : onSuccess : {"AdditionalInformation":[{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Rowguid":"a2843b0f-0222-4c34-8ec7-29d3969a435e","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:19:39 : updateRecordState Collected a2843b0f-0222-4c34-8ec7-29d3969a435e RecordState=1
+2020-08-27 16:19:39 : Update collections union 2
+2020-08-27 16:19:41 : onSuccess : {"AdditionalInformation":[{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","ServerRecordID":2632879,"rowguid":"4a41496b-ba84-4463-8525-0dd0e9e9d46a","IsSaved":true,"Result":""},{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","ServerRecordID":2632795,"rowguid":"106baf5b-256f-4aed-9e07-20922beba013","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:19:41 : updateRecordStateForCollectionUnion 4a41496b-ba84-4463-8525-0dd0e9e9d46a SyncState=1
+2020-08-27 16:19:41 : updateRecordStateForCollectionUnion 106baf5b-256f-4aed-9e07-20922beba013 SyncState=1
+2020-08-27 16:19:41 : Update missed collection 1
+2020-08-27 16:19:42 : onSuccess : {"AdditionalInformation":[{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","CollectionID":2632795,"Rowguid":"ab7994f5-ed8a-47c7-8748-5f91b113953a","IsSaved":true,"Result":"Missed collection updated successfully"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:19:43 : updateRecordState MissedCollection ab7994f5-ed8a-47c7-8748-5f91b113953a RecordState=1
+2020-08-27 16:19:43 : Update data file upload
+2020-08-27 16:20:31 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"f8d9cdd1-222c-4535-8a75-cca8339417c9","SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Referencing":"MOTC01-20054322","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:20:31 : updateRecordStateForDataFile f8d9cdd1-222c-4535-8a75-cca8339417c9 RecordState=1
+2020-08-27 16:20:38 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"97a39f96-6783-4109-83db-fa4937768eb5","SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Referencing":"MOTC01-20054322","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:20:38 : updateRecordStateForDataFile 97a39f96-6783-4109-83db-fa4937768eb5 RecordState=1
+2020-08-27 16:22:35 : Update Delivery 1
+2020-08-27 16:22:37 : onSuccess : {"AdditionalInformation":[{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Rowguid":"e1ce16de-6ce9-49d7-b991-2b179fe6f4ce","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:22:37 : updateRecordState Delivered e1ce16de-6ce9-49d7-b991-2b179fe6f4ce RecordState=1
+2020-08-27 16:22:37 : Update delivered extra requirement 1
+2020-08-27 16:22:38 : onSuccess : {"AdditionalInformation":[{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Rowguid":"54b2d762-41ce-4395-8485-d1a1fed84ee4","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:22:38 : updateRecordState Delivered_ExtraRequirements 54b2d762-41ce-4395-8485-d1a1fed84ee4 RecordState=1
+2020-08-27 16:22:38 : Update data file upload
+2020-08-27 16:25:35 : Update Non delivery 4
+2020-08-27 16:25:38 : onSuccess : {"AdditionalInformation":[{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","ConsignmentID":"HBZB01-20054324","rowguid":"42415571-e0c2-4892-b054-11ad0d3d551a","IsSaved":true,"Result":""},{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","ConsignmentID":"ONAI01-40005432","rowguid":"9263c1b4-fa25-4463-af63-b5c683610dd4","IsSaved":true,"Result":""},{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","ConsignmentID":"EMER01-40005432","rowguid":"1c51b892-1951-4312-b99b-4276a15a08dd","IsSaved":true,"Result":""},{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","ConsignmentID":"VSPI01-20054322","rowguid":"b1e84886-87cc-487c-84e8-55a3f3e5ee89","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:25:38 : updateRecordState NonDelivery 42415571-e0c2-4892-b054-11ad0d3d551a RecordState=1
+2020-08-27 16:25:38 : updateRecordState NonDelivery 9263c1b4-fa25-4463-af63-b5c683610dd4 RecordState=1
+2020-08-27 16:25:38 : updateRecordState NonDelivery 1c51b892-1951-4312-b99b-4276a15a08dd RecordState=1
+2020-08-27 16:25:38 : updateRecordState NonDelivery b1e84886-87cc-487c-84e8-55a3f3e5ee89 RecordState=1
+2020-08-27 16:25:38 : Update POD return 1
+2020-08-27 16:25:40 : onSuccess : {"AdditionalInformation":[{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","DeviceID":"869950048920256","Rowguid":"18cebf02-7a08-416a-8984-c6c01e1e3d52","IsSaved":true,"Result":""}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:25:40 : updateRecordState PODReturn 18cebf02-7a08-416a-8984-c6c01e1e3d52 RecordState=1
+2020-08-27 16:25:40 : Update data file upload
+2020-08-27 16:26:21 : Update data file upload
+2020-08-27 16:28:32 : Update data file upload
+2020-08-27 16:29:58 : Update data file upload
+2020-08-27 16:32:58 : Update data file upload
+2020-08-27 16:33:48 : Update data file upload
+2020-08-27 16:35:10 : updateDataFileUpload {"AdditionalInformation":null,"Result":false,"StatusCode":500,"Status":"ERROR","Message":"Datafile upload has failed","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-27 16:35:10 : onSuccess : {"AdditionalInformation":null,"Result":false,"StatusCode":500,"Status":"ERROR","Message":"Datafile upload has failed","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+{"request":[{"SessionID":"f2ce0e27-d886-4a34-bced-eccb3dabaf03","Referencing":"","DeviceID":"869950048920256","RecordType":"Scan Manifest","DocumentType":"Signature","FileIndex":0,"FileSize":0,"FileName":"20200827163422.jpg","FileExtension":".jpg","Rowguid":"4ddf6023-69a1-4793-9e96-01e096a775d3","ImageData":"\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIf\nIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv\/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7\nOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv\/wAARCACFAScDASIA\nAhEBAxEB\/8QAGwABAQEAAwEBAAAAAAAAAAAAAAUEAQIDBgf\/xAA2EAACAgIBAwIEBAQEBwAAAAAA\nAQIDBBEFEiExE0EGFFFhFSNCcSIyUmIkcoGRJURTg5Khsf\/EABQBAQAAAAAAAAAAAAAAAAAAAAD\/\nxAAUEQEAAAAAAAAAAAAAAAAAAAAA\/9oADAMBAAIRAxEAPwD9mAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAErlszLWXi8Xx8oV5OWp2O6yPUqaodPVLp2up7\nnCKW\/wBW3tLT6R+HYJq2XK8rLK\/67zJefr6S\/K\/06NfY6cs\/k\/iLiOSmt0tW4M5eFW7XXKEn9nKq\nMP3siWwIny3PcbPrpzVy9HmVWVGFVy+vROEVB+O0ZRXd95pGrj+cxM\/IlhtWY2dCHXPEyI9FkY71\n1L2lHfbqi3HfuUTJyHGYfKUKnMoVihLrhLbjKuS8SjJacZLb7pp9wNYIXqcxwahG9W8xgrs7oQSy\nql53KC0rV\/kSl4XTN7ZWws3F5HEry8O+u+i1bhZXLaft\/wDewHuAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAM3I4NXJ8ffhXuUYXQcXKD1KD9pRftJPTT9mkzJwXJ252NPHzVCvksOXo5lc\nN9KnralHf6ZLUl9np900qhH5nFtxr6+cwoSlkYsem+quO5ZNHduGl5km+qH33HspyYFgHnRfTlY9\neRj2wtptip12Qe4zi1tNP3TR6AcEfO47JwbreS4SEXfN9WRhuXRXl9tb34hZ2Wpe67S\/S42QBi4r\nlcbmMGOXi9aTbhOuyPTOqcXqUJR9pJrTRtIXK1z4bNfO40f8O1\/xOqK7zrS7Wpe84LzrvKHbu4wR\naqtrvphdTZGyuyKlCcHuMk+6aa8oDuAAAAAAAAAAAAAAAAAAAAAAADyycqjDx5ZGTdCmmH805vSj\n+7MWD8RcHyd\/oYHM4GXc1v06MqE5f7JlE8MzAw+RxpY2diUZVEmm6r61OL19n2A9zkjP4Yw6Uvw3\nIzOLlFagsS9quC3tqNMuqpf+Ajdz\/HrV+PVy1S\/XjNUXLwluE5dEvduXXH7RAsgw8fzPH8pKdeLf\n+dWk7KLISrtrT8OVckpRT9m139jcAAAAAAAAAODkAQuKb4nmMjg5PWPbGWXgfaG0rK19FCUotfax\nJLUS6TubwLs3EhZiOKzcSxX4zm9R60mnF\/aUXKDenpSbXdI9+N5CnlMCrMoUowtXeE1qcJJ6lGS9\npRaaa9mmgNQAA4InDwfE8nkcI1GON0\/MYCT8Vb1OtL6Qk1r2UbIJeC4RfiiE6eNXLUdXr8VJ5UVF\nbdkEn6lf36odSX93S\/YC0DhNSimntNdmjkAAAAAAAAAAAAAAAAAAAAAAAAAAAMXIcRgcooPLo6rK\nt+ldCTrtq356LItSjvWnpra7eDFrnOJ20\/xrG3vTcKsqH2Xiuzu\/f09JeZMtADDx3MYPKqaxbn61\naTtx7YOu6rfjrrklKO9dtruu62jcYeS4bB5TolkVNX1J+jkVScLqd+ema7reu63prs9oxfM8vw3b\nMrnymGv+Zx6\/8RD\/AD1JamvvDv3SVfuBbBnws7F5HFhlYWRXkUT302Vy2np6a\/dNNNezRoAAAAAA\nBBnFcDzqvhFRwOWtULko9qslrUZt+ymkoP8AvUNLc5MvGbPwqeRwL8O\/qVd0HFuD1KP0lF+zT7p+\nzSYGkE3gs+3Mwp1ZevncO14+VqPSnOKT6kvZSi4zS76U0vJSAHWUVKLjJJxa001tM7GHmc98XxGT\nmRgrLK636VTevVsfaEF95SaivuwMvwjNy+EeKjKUpSqxYUzlLzKUF0t799uLe\/csGPicBcXw+Fx6\nsdqxMeulTl5l0xUdv\/Y2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASc3ga7cyXI4F0uP5B66rqop\nxv0tJWw8WL29pJdoyjs8qOdtw5wxefojhXSkoV5MJdWNe39Jfobel0z023qLnrZbOltVd9U6ra42\nV2RcZwmtqSfZpr3QHY5Ic+Mz+Hbt4OyNmNFPfG5E2oL6Kqfd1a\/p04dkkod2a+N5zE5G2WMvUxs2\ntN2YeRHotik9OXT+qO+3XFuL9mwKIAAAACM4LD+MI2RjqPJYbjZLwlOmS6EvvKNs9\/atfQskXnWl\nyvw9JtKMOQnKTb7JfK3rf\/tHV\/Eaz26\/h\/H\/ABSW9PIUujFj\/wB7TUvdagptPs9eQK+TlUYWNZk5\nV1dFNUeqdlklGMV9W34JNGNPnMujks6mdWJjz9TCxbIuMpS8K6yL8P8Apg\/5d7l\/E0odqOA9a+vL\n5rJ\/EsmqanVFw6KKZLxKFe3qS\/qk5SXfTSeiyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD\nJn8XhcpVGvNx429D6q594zrl46oSXeMvummawBEdPN8TFfLT\/GMaOvyb5KGRFf22fyz0uyUulvy5\ns04XP8dnZEcRWvHzXFy+TyYuq7S8tQl3lHe11R3F6emykZs7j8Lk8f5fPw6MultP0761OO14emtA\naSL6XxLlwTnk8dxqb1KFVc8mevqrJOCT89nBr9zs+AnRLq43ls\/C\/icnW7fXrm\/ZONvU4xX0g4dn\n+2uZ8dzWTFRyOe+X09qWBhwrb+z9V2rX7JASMngcXI+J+Moybb+WupU8nJlmzVkIQ041\/lpKuEnJ\n7i1FN+nPu9M+tS14MXG8TjcXCz0nZbddJTvyLpdVl0ta3J\/6dktJeEkuxuAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\/\/9k=\n"}]}

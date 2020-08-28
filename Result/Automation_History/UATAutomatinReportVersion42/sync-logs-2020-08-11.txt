@@ -1,0 +1,475 @@
+2020-08-11 15:41:08 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"a8b7656f-e5ff-4919-a809-0a8456cab573","SessionID":"465a1a81-a322-40bf-93a8-75982877c7fb","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 15:41:54 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"dc163915-1546-4217-a02e-cd7f229be1d2","SessionID":"465a1a81-a322-40bf-93a8-75982877c7fb","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 15:42:31 : Update Login data
+2020-08-11 15:42:33 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 15:42:33 : Update driver
+2020-08-11 15:42:35 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 15:42:35 : Update Del veh data
+2020-08-11 15:42:35 : Update Non delivery 
+2020-08-11 15:42:35 : Update Delivery
+2020-08-11 15:42:35 : Update delivered override
+2020-08-11 15:42:35 : Update Handovers
+2020-08-11 15:42:35 : update Collected Parcel
+2020-08-11 15:42:35 : Update collected
+2020-08-11 15:42:35 : Update collections union
+2020-08-11 15:42:35 : Update delivered extra requirement
+2020-08-11 15:42:35 : Update missed collection
+2020-08-11 15:42:35 : Update POD return POD
+2020-08-11 15:42:35 : Update POD Missed
+2020-08-11 15:42:35 : Update POD return
+2020-08-11 15:42:35 : Session update
+2020-08-11 15:42:43 : onSuccess : {"AdditionalInformation":null,"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 15:42:43 : Update data file upload
+2020-08-11 15:44:45 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"a9b9b635-e468-4a1e-8ab0-70af8cbbdad3","SessionID":"6d3c79a2-20fc-4e25-9bff-ca63d260c688","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 15:45:12 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"7c9419cd-654f-4441-9a2b-7e5f4550980d","SessionID":"6d3c79a2-20fc-4e25-9bff-ca63d260c688","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 15:55:57 : Update Login data
+2020-08-11 15:55:58 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 15:55:59 : Update driver
+2020-08-11 15:56:00 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 15:56:00 : Update Del veh data
+2020-08-11 15:56:03 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 15:56:03 : Update Non delivery 
+2020-08-11 15:56:03 : Update Delivery
+2020-08-11 15:56:03 : Update delivered override
+2020-08-11 15:56:03 : Update Handovers
+2020-08-11 15:56:03 : update Collected Parcel
+2020-08-11 15:56:03 : Update collected
+2020-08-11 15:56:03 : Update collections union
+2020-08-11 15:56:03 : Update delivered extra requirement
+2020-08-11 15:56:03 : Update missed collection
+2020-08-11 15:56:03 : Update POD return POD
+2020-08-11 15:56:03 : Update POD Missed
+2020-08-11 15:56:03 : Update POD return
+2020-08-11 15:56:03 : Session update
+2020-08-11 15:56:06 : onSuccess : {"AdditionalInformation":null,"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 15:56:06 : Update data file upload
+2020-08-11 15:56:34 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"214753c4-f230-4b34-a5ad-d39cb5a7a255","SessionID":"6d3c79a2-20fc-4e25-9bff-ca63d260c688","DeviceID":"869950048920256","Referencing":"A0350538","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 15:58:57 : Update Login data
+2020-08-11 15:58:57 : Update driver
+2020-08-11 15:58:57 : Update Del veh data
+2020-08-11 15:58:57 : Update Non delivery 
+2020-08-11 15:58:59 : onSuccess : {"AdditionalInformation":null,"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 15:58:59 : Update Delivery
+2020-08-11 15:59:01 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 15:59:01 : Update delivered override
+2020-08-11 15:59:01 : Update Handovers
+2020-08-11 15:59:01 : update Collected Parcel
+2020-08-11 15:59:01 : Update collected
+2020-08-11 15:59:01 : Update collections union
+2020-08-11 15:59:04 : onSuccess : {"AdditionalInformation":null,"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 15:59:04 : Update delivered extra requirement
+2020-08-11 15:59:04 : Update missed collection
+2020-08-11 15:59:04 : Update POD return POD
+2020-08-11 15:59:04 : Update POD Missed
+2020-08-11 15:59:04 : Update POD return
+2020-08-11 15:59:04 : Session update
+2020-08-11 15:59:04 : Update data file upload
+2020-08-11 16:01:57 : Update Login data
+2020-08-11 16:01:57 : Update driver
+2020-08-11 16:01:57 : Update Del veh data
+2020-08-11 16:01:57 : Update Non delivery 
+2020-08-11 16:01:57 : Update Delivery
+2020-08-11 16:01:57 : Update delivered override
+2020-08-11 16:01:57 : Update Handovers
+2020-08-11 16:01:57 : update Collected Parcel
+2020-08-11 16:01:57 : Update collected
+2020-08-11 16:01:57 : Update collections union
+2020-08-11 16:01:57 : Update delivered extra requirement
+2020-08-11 16:01:57 : Update missed collection
+2020-08-11 16:01:57 : Update POD return POD
+2020-08-11 16:01:57 : Update POD Missed
+2020-08-11 16:01:57 : Update POD return
+2020-08-11 16:01:57 : Session update
+2020-08-11 16:01:57 : Update data file upload
+2020-08-11 16:03:17 : Update Login data
+2020-08-11 16:03:17 : Update driver
+2020-08-11 16:03:17 : Update Del veh data
+2020-08-11 16:03:17 : Update Non delivery 
+2020-08-11 16:03:17 : Update Delivery
+2020-08-11 16:03:17 : Update delivered override
+2020-08-11 16:03:17 : Update Handovers
+2020-08-11 16:03:17 : update Collected Parcel
+2020-08-11 16:03:17 : Update collected
+2020-08-11 16:03:17 : Update collections union
+2020-08-11 16:03:17 : Update delivered extra requirement
+2020-08-11 16:03:17 : Update missed collection
+2020-08-11 16:03:17 : Update POD return POD
+2020-08-11 16:03:17 : Update POD Missed
+2020-08-11 16:03:17 : Update POD return
+2020-08-11 16:03:17 : Session update
+2020-08-11 16:03:17 : Update data file upload
+2020-08-11 16:03:50 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"9b7d9bfc-86b3-46c6-9a96-5ceb73de1709","SessionID":"6d3c79a2-20fc-4e25-9bff-ca63d260c688","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:06:17 : Update Login data
+2020-08-11 16:06:17 : Update driver
+2020-08-11 16:06:17 : Update Del veh data
+2020-08-11 16:06:17 : Update Non delivery 
+2020-08-11 16:06:17 : Update Delivery
+2020-08-11 16:06:17 : Update delivered override
+2020-08-11 16:06:17 : Update Handovers
+2020-08-11 16:06:17 : update Collected Parcel
+2020-08-11 16:06:17 : Update collected
+2020-08-11 16:06:17 : Update collections union
+2020-08-11 16:06:18 : onSuccess : {"AdditionalInformation":null,"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:06:18 : Update delivered extra requirement
+2020-08-11 16:06:18 : Update missed collection
+2020-08-11 16:06:20 : onSuccess : {"AdditionalInformation":null,"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:06:20 : Update POD return POD
+2020-08-11 16:06:20 : Update POD Missed
+2020-08-11 16:06:20 : Update POD return
+2020-08-11 16:06:20 : Session update
+2020-08-11 16:06:20 : Update data file upload
+2020-08-11 16:08:19 : Update Login data
+2020-08-11 16:08:19 : Update driver
+2020-08-11 16:08:19 : Update Del veh data
+2020-08-11 16:08:19 : Update Non delivery 
+2020-08-11 16:08:19 : Update Delivery
+2020-08-11 16:08:19 : Update delivered override
+2020-08-11 16:08:19 : Update Handovers
+2020-08-11 16:08:19 : update Collected Parcel
+2020-08-11 16:08:19 : Update collected
+2020-08-11 16:08:19 : Update collections union
+2020-08-11 16:08:19 : Update delivered extra requirement
+2020-08-11 16:08:19 : Update missed collection
+2020-08-11 16:08:19 : Update POD return POD
+2020-08-11 16:08:19 : Update POD Missed
+2020-08-11 16:08:19 : Update POD return
+2020-08-11 16:08:19 : Session update
+2020-08-11 16:08:19 : Update data file upload
+2020-08-11 16:11:21 : Update Login data
+2020-08-11 16:11:21 : Update driver
+2020-08-11 16:11:21 : Update Del veh data
+2020-08-11 16:11:21 : Update Non delivery 
+2020-08-11 16:11:21 : Update Delivery
+2020-08-11 16:11:21 : Update delivered override
+2020-08-11 16:11:21 : Update Handovers
+2020-08-11 16:11:21 : update Collected Parcel
+2020-08-11 16:11:21 : Update collected
+2020-08-11 16:11:21 : Update collections union
+2020-08-11 16:11:21 : Update delivered extra requirement
+2020-08-11 16:11:21 : Update missed collection
+2020-08-11 16:11:21 : Update POD return POD
+2020-08-11 16:11:21 : Update POD Missed
+2020-08-11 16:11:21 : Update POD return
+2020-08-11 16:11:21 : Session update
+2020-08-11 16:11:21 : Update data file upload
+2020-08-11 16:11:56 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"572b0885-204f-4861-abd3-a7829515a14b","SessionID":"6d3c79a2-20fc-4e25-9bff-ca63d260c688","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:13:03 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"856683d2-c3b2-4585-92dd-1dc191be8831","SessionID":"6d3c79a2-20fc-4e25-9bff-ca63d260c688","DeviceID":"869950048920256","Referencing":"D710600011107","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:14:21 : Update Login data
+2020-08-11 16:14:21 : Update driver
+2020-08-11 16:14:21 : Update Del veh data
+2020-08-11 16:14:21 : Update Non delivery 
+2020-08-11 16:14:21 : Update Delivery
+2020-08-11 16:14:21 : Update delivered override
+2020-08-11 16:14:21 : Update Handovers
+2020-08-11 16:14:21 : update Collected Parcel
+2020-08-11 16:14:23 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:14:23 : Update collected
+2020-08-11 16:14:28 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:14:28 : Update collections union
+2020-08-11 16:14:32 : onSuccess : {"AdditionalInformation":null,"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:14:32 : Update delivered extra requirement
+2020-08-11 16:14:32 : Update missed collection
+2020-08-11 16:14:35 : onSuccess : {"AdditionalInformation":null,"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:14:35 : Update POD return POD
+2020-08-11 16:14:35 : Update POD Missed
+2020-08-11 16:14:35 : Update POD return
+2020-08-11 16:14:35 : Session update
+2020-08-11 16:14:35 : Update data file upload
+2020-08-11 16:17:32 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"d9aa46d4-5e8e-48ec-aa59-acd3145fd815","SessionID":"6d3c79a2-20fc-4e25-9bff-ca63d260c688","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:17:51 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"85bb580b-360e-4fe3-a563-944c7636d516","SessionID":"6d3c79a2-20fc-4e25-9bff-ca63d260c688","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:21:29 : Update Login data
+2020-08-11 16:21:30 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:21:30 : Update driver
+2020-08-11 16:21:31 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:21:31 : Update Del veh data
+2020-08-11 16:21:31 : Update Non delivery 
+2020-08-11 16:21:31 : Update Delivery
+2020-08-11 16:21:31 : Update delivered override
+2020-08-11 16:21:31 : Update Handovers
+2020-08-11 16:21:31 : update Collected Parcel
+2020-08-11 16:21:31 : Update collected
+2020-08-11 16:21:31 : Update collections union
+2020-08-11 16:21:31 : Update delivered extra requirement
+2020-08-11 16:21:31 : Update missed collection
+2020-08-11 16:21:31 : Update POD return POD
+2020-08-11 16:21:31 : Update POD Missed
+2020-08-11 16:21:31 : Update POD return
+2020-08-11 16:21:31 : Session update
+2020-08-11 16:21:33 : onSuccess : {"AdditionalInformation":null,"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:21:33 : Update data file upload
+2020-08-11 16:24:29 : Update Login data
+2020-08-11 16:24:29 : Update driver
+2020-08-11 16:24:29 : Update Del veh data
+2020-08-11 16:24:29 : Update Non delivery 
+2020-08-11 16:24:29 : Update Delivery
+2020-08-11 16:24:29 : Update delivered override
+2020-08-11 16:24:29 : Update Handovers
+2020-08-11 16:24:29 : update Collected Parcel
+2020-08-11 16:24:29 : Update collected
+2020-08-11 16:24:29 : Update collections union
+2020-08-11 16:24:29 : Update delivered extra requirement
+2020-08-11 16:24:29 : Update missed collection
+2020-08-11 16:24:29 : Update POD return POD
+2020-08-11 16:24:29 : Update POD Missed
+2020-08-11 16:24:29 : Update POD return
+2020-08-11 16:24:29 : Session update
+2020-08-11 16:24:29 : Update data file upload
+2020-08-11 16:25:29 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"e198f633-3295-4327-bb66-684ec882a1b7","SessionID":"9d7c6c3e-2a67-4288-a694-35ec2d7f72af","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:25:46 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"c64f6438-3f56-4011-99c7-22a476fce192","SessionID":"9d7c6c3e-2a67-4288-a694-35ec2d7f72af","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:26:56 : Update Login data
+2020-08-11 16:26:57 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:26:57 : Update driver
+2020-08-11 16:27:00 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:27:00 : Update Del veh data
+2020-08-11 16:27:03 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:27:03 : Update Non delivery 
+2020-08-11 16:27:03 : Update Delivery
+2020-08-11 16:27:03 : Update delivered override
+2020-08-11 16:27:03 : Update Handovers
+2020-08-11 16:27:03 : update Collected Parcel
+2020-08-11 16:27:03 : Update collected
+2020-08-11 16:27:03 : Update collections union
+2020-08-11 16:27:03 : Update delivered extra requirement
+2020-08-11 16:27:03 : Update missed collection
+2020-08-11 16:27:03 : Update POD return POD
+2020-08-11 16:27:03 : Update POD Missed
+2020-08-11 16:27:03 : Update POD return
+2020-08-11 16:27:03 : Session update
+2020-08-11 16:27:07 : onSuccess : {"AdditionalInformation":null,"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:27:07 : Update data file upload
+2020-08-11 16:27:36 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"fa6c4f24-c3e7-409f-b256-7e9005031b3a","SessionID":"9d7c6c3e-2a67-4288-a694-35ec2d7f72af","DeviceID":"869950048920256","Referencing":"A0350538","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:28:12 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"35174449-00b1-475a-b278-8e3f2f13bacd","SessionID":"9d7c6c3e-2a67-4288-a694-35ec2d7f72af","DeviceID":"869950048920256","Referencing":"PLAT05-90023456","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:28:12 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"16a901f5-1285-4091-88ec-144dad6544ff","SessionID":"9d7c6c3e-2a67-4288-a694-35ec2d7f72af","DeviceID":"869950048920256","Referencing":"PLAT05-92234567","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:28:13 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"7a0eb17e-10e7-4f52-8b27-599522abfd52","SessionID":"9d7c6c3e-2a67-4288-a694-35ec2d7f72af","DeviceID":"869950048920256","Referencing":"PLAT05-94123456","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:29:05 : Update Login data
+2020-08-11 16:29:05 : Update driver
+2020-08-11 16:29:05 : Update Del veh data
+2020-08-11 16:29:05 : Update Non delivery 
+2020-08-11 16:29:07 : onSuccess : {"AdditionalInformation":null,"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:29:07 : Update Delivery
+2020-08-11 16:29:10 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:29:10 : Update delivered override
+2020-08-11 16:29:10 : Update Handovers
+2020-08-11 16:29:10 : update Collected Parcel
+2020-08-11 16:29:10 : Update collected
+2020-08-11 16:29:10 : Update collections union
+2020-08-11 16:29:10 : Update delivered extra requirement
+2020-08-11 16:29:12 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:29:12 : Update missed collection
+2020-08-11 16:29:12 : Update POD return POD
+2020-08-11 16:29:12 : Update POD Missed
+2020-08-11 16:29:12 : Update POD return
+2020-08-11 16:29:12 : Session update
+2020-08-11 16:29:12 : Update data file upload
+2020-08-11 16:29:26 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"64a468d7-3672-47be-9478-1cf9263f12f5","SessionID":"9d7c6c3e-2a67-4288-a694-35ec2d7f72af","DeviceID":"869950048920256","Referencing":"W0707910","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:29:46 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"c69aa6fe-e511-45c0-8538-343b07361537","SessionID":"9d7c6c3e-2a67-4288-a694-35ec2d7f72af","DeviceID":"869950048920256","Referencing":"J2081929","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:30:22 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"733b0bbc-45c7-4314-8908-a861c21f0358","SessionID":"9d7c6c3e-2a67-4288-a694-35ec2d7f72af","DeviceID":"869950048920256","Referencing":"K1781740","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:30:44 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"34a05422-c467-43f1-9bc8-7ac5cdfbb65a","SessionID":"9d7c6c3e-2a67-4288-a694-35ec2d7f72af","DeviceID":"869950048920256","Referencing":"RW18220294","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:32:04 : Update Login data
+2020-08-11 16:32:04 : Update driver
+2020-08-11 16:32:04 : Update Del veh data
+2020-08-11 16:32:04 : Update Non delivery 
+2020-08-11 16:34:17 : Update Login data
+2020-08-11 16:34:17 : Update driver
+2020-08-11 16:34:17 : Update Del veh data
+2020-08-11 16:34:17 : Update Non delivery 
+2020-08-11 16:47:50 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"4719e562-bc8e-4af1-a4af-aada3ee7e57c","SessionID":"bc8b4c92-d9e6-4433-a287-fe16cabb9b77","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:48:07 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"bf0e162d-f795-42cb-b649-dc51d5e1166f","SessionID":"bc8b4c92-d9e6-4433-a287-fe16cabb9b77","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:49:04 : Update Login data
+2020-08-11 16:49:06 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:49:06 : Update driver
+2020-08-11 16:49:09 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:49:09 : Update Del veh data
+2020-08-11 16:49:13 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:49:13 : Update Non delivery 
+2020-08-11 16:49:17 : onSuccess : {"AdditionalInformation":null,"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:49:17 : Update Delivery
+2020-08-11 16:49:21 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:49:21 : Update delivered override
+2020-08-11 16:49:23 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:49:23 : Update Handovers
+2020-08-11 16:49:23 : update Collected Parcel
+2020-08-11 16:49:24 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"eb37c2c1-85ab-4e93-9b07-dab7110aa672","SessionID":"bc8b4c92-d9e6-4433-a287-fe16cabb9b77","DeviceID":"869950048920256","Referencing":"SAISA1234567","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:49:24 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:49:25 : Update collected
+2020-08-11 16:49:26 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:49:26 : Update collections union
+2020-08-11 16:49:26 : Update delivered extra requirement
+2020-08-11 16:49:29 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:49:29 : Update missed collection
+2020-08-11 16:49:29 : Update POD return POD
+2020-08-11 16:49:31 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:49:31 : Update POD Missed
+2020-08-11 16:49:31 : Update POD return
+2020-08-11 16:49:32 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:49:32 : Session update
+2020-08-11 16:49:36 : onSuccess : {"AdditionalInformation":null,"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:49:36 : Update data file upload
+2020-08-11 16:49:41 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"6d3d0813-8e0b-4e2c-80fb-5e1d0336d6f9","SessionID":"bc8b4c92-d9e6-4433-a287-fe16cabb9b77","DeviceID":"869950048920256","Referencing":"SIDDSA01231","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:49:52 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"6be59f98-d118-41ee-9a32-38a8479bc5ee","SessionID":"bc8b4c92-d9e6-4433-a287-fe16cabb9b77","DeviceID":"869950048920256","Referencing":"RW1833183111","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:50:41 : Update Login data
+2020-08-11 16:50:41 : Update driver
+2020-08-11 16:50:41 : Update Del veh data
+2020-08-11 16:50:41 : Update Non delivery 
+2020-08-11 16:50:41 : Update Delivery
+2020-08-11 16:50:41 : Update delivered override
+2020-08-11 16:50:41 : Update Handovers
+2020-08-11 16:50:41 : update Collected Parcel
+2020-08-11 16:50:42 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:50:42 : Update collected
+2020-08-11 16:50:44 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:50:44 : Update collections union
+2020-08-11 16:50:44 : Update delivered extra requirement
+2020-08-11 16:50:44 : Update missed collection
+2020-08-11 16:50:44 : Update POD return POD
+2020-08-11 16:50:44 : Update POD Missed
+2020-08-11 16:50:44 : Update POD return
+2020-08-11 16:50:44 : Session update
+2020-08-11 16:50:44 : Update data file upload
+2020-08-11 16:51:12 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"a31c8606-2b63-4153-bf37-5f3b96a01226","SessionID":"bc8b4c92-d9e6-4433-a287-fe16cabb9b77","DeviceID":"869950048920256","Referencing":"RAMS02-20054321","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:51:12 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"af4d6885-dfe0-4493-b3c2-e5657295fc23","SessionID":"bc8b4c92-d9e6-4433-a287-fe16cabb9b77","DeviceID":"869950048920256","Referencing":"RAMS02-20054321","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:51:45 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"c3afda6b-81dd-4777-879f-734da9a58765","SessionID":"bc8b4c92-d9e6-4433-a287-fe16cabb9b77","DeviceID":"869950048920256","Referencing":"VSPI01-20054322","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:51:45 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"251ae448-5eab-4354-9c81-ed641cb7cb56","SessionID":"bc8b4c92-d9e6-4433-a287-fe16cabb9b77","DeviceID":"869950048920256","Referencing":"VSPI01-20054322","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:56:38 : Update Login data
+2020-08-11 16:56:38 : Update driver
+2020-08-11 16:56:38 : Update Del veh data
+2020-08-11 16:56:38 : Update Non delivery 
+2020-08-11 16:56:40 : onSuccess : {"AdditionalInformation":null,"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:56:40 : Update Delivery
+2020-08-11 16:56:40 : Update delivered override
+2020-08-11 16:56:40 : Update Handovers
+2020-08-11 16:56:42 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 16:56:42 : update Collected Parcel
+2020-08-11 16:56:42 : Update collected
+2020-08-11 16:56:42 : Update collections union
+2020-08-11 16:56:42 : Update delivered extra requirement
+2020-08-11 16:56:42 : Update missed collection
+2020-08-11 16:56:42 : Update POD return POD
+2020-08-11 16:56:42 : Update POD Missed
+2020-08-11 16:56:42 : Update POD return
+2020-08-11 16:56:42 : Session update
+2020-08-11 16:56:42 : Update data file upload
+2020-08-11 16:59:38 : Update Login data
+2020-08-11 16:59:38 : Update driver
+2020-08-11 16:59:38 : Update Del veh data
+2020-08-11 16:59:38 : Update Non delivery 
+2020-08-11 16:59:38 : Update Delivery
+2020-08-11 16:59:38 : Update delivered override
+2020-08-11 16:59:38 : Update Handovers
+2020-08-11 16:59:38 : update Collected Parcel
+2020-08-11 16:59:38 : Update collected
+2020-08-11 16:59:38 : Update collections union
+2020-08-11 16:59:38 : Update delivered extra requirement
+2020-08-11 16:59:38 : Update missed collection
+2020-08-11 16:59:38 : Update POD return POD
+2020-08-11 16:59:38 : Update POD Missed
+2020-08-11 16:59:38 : Update POD return
+2020-08-11 16:59:38 : Session update
+2020-08-11 16:59:38 : Update data file upload
+2020-08-11 17:02:38 : Update Login data
+2020-08-11 17:02:38 : Update driver
+2020-08-11 17:02:38 : Update Del veh data
+2020-08-11 17:02:38 : Update Non delivery 
+2020-08-11 17:02:38 : Update Delivery
+2020-08-11 17:02:38 : Update delivered override
+2020-08-11 17:02:38 : Update Handovers
+2020-08-11 17:02:38 : update Collected Parcel
+2020-08-11 17:02:38 : Update collected
+2020-08-11 17:02:38 : Update collections union
+2020-08-11 17:02:40 : onSuccess : {"AdditionalInformation":null,"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 17:02:40 : Update delivered extra requirement
+2020-08-11 17:02:40 : Update missed collection
+2020-08-11 17:02:40 : Update POD return POD
+2020-08-11 17:02:40 : Update POD Missed
+2020-08-11 17:02:40 : Update POD return
+2020-08-11 17:02:40 : Session update
+2020-08-11 17:02:40 : Update data file upload
+2020-08-11 17:04:35 : Update Login data
+2020-08-11 17:04:35 : Update driver
+2020-08-11 17:04:35 : Update Del veh data
+2020-08-11 17:04:35 : Update Non delivery 
+2020-08-11 17:04:35 : Update Delivery
+2020-08-11 17:04:35 : Update delivered override
+2020-08-11 17:04:35 : Update Handovers
+2020-08-11 17:04:35 : update Collected Parcel
+2020-08-11 17:04:35 : Update collected
+2020-08-11 17:04:35 : Update collections union
+2020-08-11 17:04:35 : Update delivered extra requirement
+2020-08-11 17:04:35 : Update missed collection
+2020-08-11 17:04:35 : Update POD return POD
+2020-08-11 17:04:35 : Update POD Missed
+2020-08-11 17:04:35 : Update POD return
+2020-08-11 17:04:35 : Session update
+2020-08-11 17:04:35 : Update data file upload
+2020-08-11 17:05:08 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"94691ef1-9649-4548-bd94-d74c34ee4df6","SessionID":"bc8b4c92-d9e6-4433-a287-fe16cabb9b77","DeviceID":"869950048920256","Referencing":"","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 17:05:36 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"dd1713a9-ac5e-413f-bc17-930a6dffe894","SessionID":"bc8b4c92-d9e6-4433-a287-fe16cabb9b77","DeviceID":"869950048920256","Referencing":"RW1032121","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 17:06:45 : Update Login data
+2020-08-11 17:06:45 : Update driver
+2020-08-11 17:06:45 : Update Del veh data
+2020-08-11 17:06:45 : Update Non delivery 
+2020-08-11 17:06:45 : Update Delivery
+2020-08-11 17:06:45 : Update delivered override
+2020-08-11 17:06:45 : Update Handovers
+2020-08-11 17:06:45 : update Collected Parcel
+2020-08-11 17:06:46 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 17:06:46 : Update collected
+2020-08-11 17:06:47 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 17:06:47 : Update collections union
+2020-08-11 17:06:49 : onSuccess : {"AdditionalInformation":null,"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 17:06:49 : Update delivered extra requirement
+2020-08-11 17:06:49 : Update missed collection
+2020-08-11 17:06:50 : onSuccess : {"AdditionalInformation":null,"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 17:06:50 : Update POD return POD
+2020-08-11 17:06:50 : Update POD Missed
+2020-08-11 17:06:50 : Update POD return
+2020-08-11 17:06:50 : Session update
+2020-08-11 17:06:50 : Update data file upload
+2020-08-11 17:07:23 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"7981fe41-12cc-4d05-8e57-0de978af045a","SessionID":"bc8b4c92-d9e6-4433-a287-fe16cabb9b77","DeviceID":"869950048920256","Referencing":"ONAI01-40005432","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 17:07:56 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"3f0ff456-0daa-40f6-9b44-1da7e1529ffd","SessionID":"bc8b4c92-d9e6-4433-a287-fe16cabb9b77","DeviceID":"869950048920256","Referencing":"MOTC01-20054322","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 17:08:04 : updateDataFileUpload {"AdditionalInformation":[{"Rowguid":"b8919ccb-8efc-4f79-abbd-eae0f97136d0","SessionID":"bc8b4c92-d9e6-4433-a287-fe16cabb9b77","DeviceID":"869950048920256","Referencing":"MOTC01-20054322","IsSaved":true,"Message":"Datafile uploaded","Status":"SUCCESS"}],"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 17:09:45 : Update Login data
+2020-08-11 17:09:45 : Update driver
+2020-08-11 17:09:45 : Update Del veh data
+2020-08-11 17:09:45 : Update Non delivery 
+2020-08-11 17:09:45 : Update Delivery
+2020-08-11 17:09:47 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 17:09:47 : Update delivered override
+2020-08-11 17:09:47 : Update Handovers
+2020-08-11 17:09:47 : update Collected Parcel
+2020-08-11 17:09:47 : Update collected
+2020-08-11 17:09:47 : Update collections union
+2020-08-11 17:09:47 : Update delivered extra requirement
+2020-08-11 17:09:50 : onSuccess : {"Result":true,"StatusCode":200,"Status":"SUCCESS","Message":"","Source":"RAM.Microservices.Mobile.API.Controllers.SessionSyncController"}
+2020-08-11 17:09:50 : Update missed collection
+2020-08-11 17:09:50 : Update POD return POD
+2020-08-11 17:09:50 : Update POD Missed
+2020-08-11 17:09:50 : Update POD return
+2020-08-11 17:09:50 : Session update
+2020-08-11 17:09:50 : Update data file upload
+2020-08-11 17:10:49 : Update Login data
+2020-08-11 17:10:49 : Update driver
+2020-08-11 17:10:49 : Update Del veh data
+2020-08-11 17:10:49 : Update Non delivery 
+2020-08-11 17:10:49 : Update Delivery
+2020-08-11 17:10:49 : Update delivered override
+2020-08-11 17:10:49 : Update Handovers
+2020-08-11 17:10:49 : update Collected Parcel
+2020-08-11 17:10:49 : Update collected
+2020-08-11 17:10:49 : Update collections union
+2020-08-11 17:10:49 : Update delivered extra requirement
+2020-08-11 17:10:49 : Update missed collection
+2020-08-11 17:10:49 : Update POD return POD
+2020-08-11 17:10:49 : Update POD Missed
+2020-08-11 17:10:49 : Update POD return
+2020-08-11 17:10:49 : Session update
+2020-08-11 17:10:49 : Update data file upload
+2020-08-11 17:12:11 : Update Login data
+2020-08-11 17:12:11 : Update driver
+2020-08-11 17:12:11 : Update Del veh data
+2020-08-11 17:12:11 : Update Non delivery 
+2020-08-11 17:12:11 : Update Delivery
+2020-08-11 17:12:11 : Update delivered override
+2020-08-11 17:12:11 : Update Handovers
+2020-08-11 17:12:11 : update Collected Parcel
+2020-08-11 17:12:11 : Update collected
+2020-08-11 17:12:11 : Update collections union

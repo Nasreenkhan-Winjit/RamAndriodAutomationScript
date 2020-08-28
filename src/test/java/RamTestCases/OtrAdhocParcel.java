@@ -174,11 +174,33 @@ public class OtrAdhocParcel {
 	el8.click();
 	MobileElement el9 = (MobileElement) driver.findElementById("android:id/button1");
 	el9.click();
+
+
 	
 	}
+
+//	#COL00197014
+@Test(description= "When user want to addhoc parcel #COL",priority= 5)
+
+public void AddParcelWithCOL () throws InterruptedException {
+
+	MobileElement el7 = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
+	el7.sendKeys("#COL00197014.001");
+	MobileElement el8 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
+	el8.click();
+	MobileElement el9 = (MobileElement) driver.findElementById("android:id/button1");
+	el9.click();
+
+	MobileElement el10 = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
+	el10.sendKeys("COL00897014.001");
+	MobileElement el11 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
+	el11.click();
+	MobileElement el12 = (MobileElement) driver.findElementById("android:id/button1");
+	el12.click();
+
+}
 	
-	
-	@Test(description= "Add New Parcel ",priority= 5)
+	@Test(description= "Add New Parcel ",priority= 6)
 
 	public void AddNewParcel () throws InterruptedException {
 	
@@ -190,7 +212,7 @@ public class OtrAdhocParcel {
 	el12.click();
 	}
 	
-	@Test(description= "Invalid caseto confirm No. of Parcel",priority= 6)
+	@Test(description= "Invalid caseto confirm No. of Parcel",priority= 7)
 
 	public void InvalidConfirmNoOfParcel () throws InterruptedException {	
 	
@@ -202,7 +224,7 @@ public class OtrAdhocParcel {
 	}
 	
 	
-	@Test(description= "Valid ConfirmNo. of Parcel",priority= 7)
+	@Test(description= "Valid ConfirmNo. of Parcel",priority= 8)
 
 	public void ValidConfirmNoOfParcel () throws InterruptedException {	
 		
@@ -217,5 +239,30 @@ public class OtrAdhocParcel {
 	el18.sendKeys("Autosender");
 	MobileElement el19 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_save");
 	el19.click();
+}
+
+	@Test(description= "Validate collection turned to geen when add from AdhocParcel ",priority=9 )
+
+	public void ValidateCollectionfromAdhocParcel () throws InterruptedException {
+
+		MobileElement el1 = (MobileElement) driver.findElementById("com.ram.courier:id/ll_adhoc_collection");
+		el1.click();
+		// ADD waybill Number from collection screen
+		MobileElement el2 = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
+		el2.sendKeys("RW1833183111.001");
+		MobileElement el3 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
+		el3.click();
+		MobileElement el4 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
+		el4.click();
+		MobileElement el5 = (MobileElement) driver.findElementById("com.ram.courier:id/et_parcel_count");
+		el5.click();
+		el5.sendKeys("1");
+		MobileElement el6 = (MobileElement) driver.findElementById("com.ram.courier:id/et_sender_name");
+		el6.sendKeys("Tester");
+		MobileElement el7 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_save");
+		el7.click();
+		MobileElement el8 = (MobileElement) driver.findElementById("com.ram.courier:id/ll_collections");
+		el8.click();
+
 }
 }
