@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<DeliveryData>
+  <ParcelsToDeliver>
+    <ParcelToDeliver TrackingNo="AVNI01-U0000020.001" ConsignmentID="AVNI01-U0000020" />
+    <ParcelToDeliver TrackingNo="AVNI01-U0000021.001" ConsignmentID="AVNI01-U0000021" />
+    <ParcelToDeliver TrackingNo="RW1833599.001" ConsignmentID="RW1833599" />
+    <ParcelToDeliver TrackingNo="RW1833600.001" ConsignmentID="RW1833600" />
+    <ParcelToDeliver TrackingNo="RW1833601.001" ConsignmentID="RW1833601" />
+  </ParcelsToDeliver>
+  <Consignments>
+    <Consignment ConsignmentID="AVNI01-U0000020" ShipperReference="" BilledTo="AVNI01" SenderID="AVNI01" ReceiverID="JONAAVNI0100032" Surcharges="" ServiceTypeCode="ES" NoOfParcels="1" GoodsDescription="" SpecialInstructions="" ConsignedDT="2020-06-10T11:00:32" GRVRequired="0" IDNumbersForVerification="" IsRetailDelivery="0" ServiceTypeSortOrder="4" DeliverBy="17H00" ActualParcelCount="1" DeliveryAttempts="1" DeliveryChannel="Business" AccessPin="7536" />
+    <Consignment ConsignmentID="AVNI01-U0000021" ShipperReference="" BilledTo="AVNI01" SenderID="AVNI01" ReceiverID="DAVIAVNI0100112" Surcharges="" ServiceTypeCode="ES" NoOfParcels="1" GoodsDescription="" SpecialInstructions="" ConsignedDT="2020-06-10T11:07:23" GRVRequired="0" IDNumbersForVerification="" IsRetailDelivery="0" ServiceTypeSortOrder="4" DeliverBy="17H00" ActualParcelCount="1" DeliveryAttempts="1" DeliveryChannel="Business" AccessPin="5724" />
+    <Consignment ConsignmentID="RW1833599" ShipperReference="" BilledTo="RAMI03" SenderID="RAMI03" ReceiverID="DAVIERAM0100084" Surcharges="" ServiceTypeCode="ND" NoOfParcels="1" GoodsDescription="" SpecialInstructions="" ConsignedDT="2020-06-10T11:13:22" GRVRequired="0" IDNumbersForVerification="" IsRetailDelivery="0" ServiceTypeSortOrder="4" DeliverBy="17H00" ActualParcelCount="1" DeliveryAttempts="1" DeliveryChannel="" AccessPin="8273" />
+    <Consignment ConsignmentID="RW1833600" ShipperReference="" BilledTo="RAMS01" SenderID="RAMS01" ReceiverID="JONTCOL00006" Surcharges="" ServiceTypeCode="ND" NoOfParcels="1" GoodsDescription="" SpecialInstructions="" ConsignedDT="2020-06-10T11:15:15" GRVRequired="0" IDNumbersForVerification="" IsRetailDelivery="0" ServiceTypeSortOrder="4" DeliverBy="17H00" ActualParcelCount="1" DeliveryAttempts="1" DeliveryChannel="" AccessPin="" />
+    <Consignment ConsignmentID="RW1833601" ShipperReference="" BilledTo="RAMS01" SenderID="RAMS01" ReceiverID="DAVIDIGI3700111" Surcharges="" ServiceTypeCode="ND" NoOfParcels="1" GoodsDescription="" SpecialInstructions="" ConsignedDT="2020-06-10T11:16:29" GRVRequired="0" IDNumbersForVerification="" IsRetailDelivery="0" ServiceTypeSortOrder="4" DeliverBy="17H00" ActualParcelCount="1" DeliveryAttempts="1" DeliveryChannel="" AccessPin="" />
+  </Consignments>
+  <Parcels>
+    <Parcel TrackingNo="RW1833600.001" ConsignmentID="RW1833600" Kilograms="1.000000000000000e+000" Length="1.100000000000000e+001" Breadth="1.100000000000000e+001" Height="1.000000000000000e+000" />
+    <Parcel TrackingNo="RW1833601.001" ConsignmentID="RW1833601" Kilograms="1.000000000000000e+000" Length="1.100000000000000e+001" Breadth="1.100000000000000e+001" Height="1.000000000000000e+000" />
+    <Parcel TrackingNo="RW1833599.001" ConsignmentID="RW1833599" Kilograms="1.000000000000000e+000" Length="1.100000000000000e+001" Breadth="1.100000000000000e+001" Height="1.000000000000000e+000" />
+    <Parcel TrackingNo="AVNI01-U0000020.001" ConsignmentID="AVNI01-U0000020" Kilograms="1.000000000000000e+000" Length="1.100000000000000e+001" Breadth="1.100000000000000e+001" Height="1.000000000000000e+000" />
+    <Parcel TrackingNo="AVNI01-U0000021.001" ConsignmentID="AVNI01-U0000021" Kilograms="1.000000000000000e+000" Length="1.100000000000000e+001" Breadth="1.100000000000000e+001" Height="1.000000000000000e+000" />
+  </Parcels>
+  <Customers>
+    <Customer CustomerID="AVNI01" CustomerName="GARMIN SOUTHERN AFRICA (PTY) LTD" StoreCode="AVNI01" TelephoneNo="011 251 9972" FaxNo="086 - 603 4740" EmailAddress="INFO@AVNIC.CO.ZA" CellNo="" StreetAddress1="ZEISS ROAD LASER PARK" StreetAddress2="" StreetNo="9" BuildingName="KIMBUILT OFFICE PARK" SuiteFloorNo="" ZoneID="ZISA106313007901" GEOID="AGSUB00000016060" POIID="0" Lat="-2.607896400000000e+001" Lon="2.792396600000000e+001" DefaultContactPerson="" />
+    <Customer CustomerID="DAVIAVNI0100112" CustomerName="DAVID LIEBOVITZ" StoreCode="" TelephoneNo="000 000 0000" FaxNo="" EmailAddress="DAVID.LIEBOVITZ@RAM.CO.ZA" CellNo="082 774 0031" StreetAddress1="16 WRENCH" StreetAddress2="ROAD" StreetNo="" BuildingName="" SuiteFloorNo="" ZoneID="ZISA106313033501" GEOID="" POIID="0" Lat="0.000000000000000e+000" Lon="0.000000000000000e+000" DefaultContactPerson="LFC" />
+    <Customer CustomerID="DAVIDIGI3700111" CustomerName="DAVID LIEBOVITZ" StoreCode="" TelephoneNo="0827740031" FaxNo="" EmailAddress="" CellNo="0827740031" StreetAddress1="Wrench Road" StreetAddress2="" StreetNo="27" BuildingName="" SuiteFloorNo="" ZoneID="AGSUB00000020174" GEOID="" POIID="0" Lat="0.000000000000000e+000" Lon="0.000000000000000e+000" DefaultContactPerson="" />
+    <Customer CustomerID="DAVIERAM0100084" CustomerName="DAVID LIEBOVITZ" StoreCode="" TelephoneNo="082 774 0031" FaxNo="" EmailAddress="DAVID.LIEBOVITZ@RAM.CO.ZA" CellNo="082 774 0031" StreetAddress1="27 WRENCH ROAD" StreetAddress2="RAM COURIERS HEAD OFFICE" StreetNo="" BuildingName="" SuiteFloorNo="" ZoneID="ZISA106313033501" GEOID="" POIID="0" Lat="0.000000000000000e+000" Lon="0.000000000000000e+000" DefaultContactPerson="" />
+    <Customer CustomerID="JONAAVNI0100032" CustomerName="JONATHAN STERN" StoreCode="" TelephoneNo="071 871 1190" FaxNo="" EmailAddress="" CellNo="071 871 1190" StreetAddress1="WRENCH ROAD" StreetAddress2="ISANDO" StreetNo="27" BuildingName="" SuiteFloorNo="" ZoneID="AGSUB00000020174" GEOID="" POIID="0" Lat="0.000000000000000e+000" Lon="0.000000000000000e+000" DefaultContactPerson="JONATHAN STERN" />
+    <Customer CustomerID="JONTCOL00006" CustomerName="JONTHAN LURIE THE DRAGON" StoreCode="" TelephoneNo="0119775055" FaxNo="" EmailAddress="JONTHAN.LURIE@RAM.CO.ZA" CellNo="0826984981" StreetAddress1="WRENCH ROAD" StreetAddress2="" StreetNo="27" BuildingName="" SuiteFloorNo="" ZoneID="ZISA106313033501" GEOID="" POIID="0" Lat="-2.613834600000000e+001" Lon="2.821044300000000e+001" DefaultContactPerson="" />
+    <Customer CustomerID="RAMI03" CustomerName="RAM FREE / TEST MOVEMENTS" StoreCode="RAMI03" TelephoneNo="011 - 392 5050" FaxNo="" EmailAddress="" CellNo="" StreetAddress1="WRENCH STREET" StreetAddress2="" StreetNo="" BuildingName="" SuiteFloorNo="" ZoneID="ZISA106313033501" GEOID="AGSUB00000020174" POIID="0" Lat="-2.613288501000000e+001" Lon="2.821222944000000e+001" DefaultContactPerson="" />
+    <Customer CustomerID="RAMS01" CustomerName="RAM SOLUTIONS (PTY) LTD" StoreCode="RAMS01" TelephoneNo="" FaxNo="" EmailAddress="" CellNo="" StreetAddress1="16 WRENCH ROAD" StreetAddress2="ISANDO" StreetNo="" BuildingName="" SuiteFloorNo="" ZoneID="ZISA106313033501" GEOID="" POIID="0" Lat="-2.613834600000000e+001" Lon="2.821044300000000e+001" DefaultContactPerson="RAM SOLUTIONS (PTY) LTD" />
+  </Customers>
+  <Zones>
+    <Zone ZoneID="AGSUB00000020174" Suburb="ISANDO" Area="KEMPTON PARK" PostalCode="1601" HubID="ISA" Lat="-2.614404700000000e+001" Lon="2.821044300000000e+001" />
+    <Zone ZoneID="ZISA106313007901" Suburb="HONEYDEW" Area="JOHANNESBURG" PostalCode="2040" HubID="ISA" Lat="-2.608000000000000e+001" Lon="2.792640000000000e+001" />
+    <Zone ZoneID="ZISA106313033501" Suburb="ISANDO" Area="" PostalCode="1600" HubID="ISA" Lat="-2.613834600000000e+001" Lon="2.821044300000000e+001" />
+  </Zones>
+  <PODRequirements>
+    <PODRequirement ConsignmentID="AVNI01-U0000020" PODRequirementID="16" />
+    <PODRequirement ConsignmentID="AVNI01-U0000021" PODRequirementID="16" />
+  </PODRequirements>
+  <PreviousNDReasons>
+    <PreviousNDReason ConsignmentID="AVNI01-U0000020" Reason="Invalid one time pin" />
+    <PreviousNDReason ConsignmentID="AVNI01-U0000020" Reason="OTP not available" />
+    <PreviousNDReason ConsignmentID="AVNI01-U0000020" Reason="OTP not available" />
+    <PreviousNDReason ConsignmentID="AVNI01-U0000020" Reason="OTP not available" />
+    <PreviousNDReason ConsignmentID="AVNI01-U0000020" Reason="OTP not available" />
+    <PreviousNDReason ConsignmentID="AVNI01-U0000020" Reason="Misrouted" />
+    <PreviousNDReason ConsignmentID="AVNI01-U0000021" Reason="OTP not available" />
+    <PreviousNDReason ConsignmentID="AVNI01-U0000021" Reason="OTP not available" />
+    <PreviousNDReason ConsignmentID="AVNI01-U0000021" Reason="OTP not available" />
+    <PreviousNDReason ConsignmentID="RW1833601" Reason="Misrouted" />
+  </PreviousNDReasons>
+</DeliveryData>

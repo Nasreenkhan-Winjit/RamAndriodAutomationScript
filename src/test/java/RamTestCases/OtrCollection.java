@@ -56,15 +56,15 @@ public class OtrCollection {
 		// Device configuration
 
 		cap.setCapability("automationName", "Appium");
-		cap.setCapability("platformName", "Android");	
-		cap.setCapability("platformVersion", "9");
-		cap.setCapability("deviceName", "Vivo");
-		cap.setCapability("udid", "8SSCCMUCKV7SIVRG");  
+		cap.setCapability("platformName", "Android");
+		cap.setCapability("platformVersion", "10");
+		cap.setCapability("deviceName", "vivo 1907");
+		cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
 //		cap.setCapability("autoGrantPermission", "true");
 		cap.setCapability("appPackage", "com.ram.courier");
 		cap.setCapability("appActivity", "com.ram.courier.activities.SplashScreen");
-					 cap.setCapability("noReset", "true");
-					cap.setCapability("fullReset", "false");
+		cap.setCapability("noReset", "true");
+		cap.setCapability("fullReset", "false");
 
 
 		driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
@@ -106,7 +106,7 @@ public class OtrCollection {
 		okBtnOnReturntoHubPopUp .click();
 
 // Reject Collection
-		MobileElement el1 = (MobileElement) driver.findElementByAccessibilityId("Pending(2)");
+		MobileElement el1 = (MobileElement) driver.findElementByAccessibilityId("Pending(6)");
 		el1.click();
 		MobileElement el2 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox");
 		el2.click();
@@ -183,7 +183,7 @@ public class OtrCollection {
 
 	public void CaseToVerifyAcceptCollection() throws InterruptedException {
 
-		MobileElement el1 = (MobileElement) driver.findElementByAccessibilityId("Pending(1)");
+		MobileElement el1 = (MobileElement) driver.findElementByAccessibilityId("Pending(5)");
 		el1.click();
 		el1.click();
 		MobileElement el2 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed_collection");
@@ -310,8 +310,8 @@ public class OtrCollection {
 		MobileElement el3 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_collect");
 		el3.click();
 		MobileElement el4 = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
-		el4.sendKeys("RW1032121.001");
-		// D710600011107.001,  RW1032121
+		el4.sendKeys("D710600011107.001");
+		// D710600011107.001,  RW1032121.001
 		MobileElement el5 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
 		el5.click();
 		MobileElement el6 = (MobileElement) driver.findElementById("android:id/button1");

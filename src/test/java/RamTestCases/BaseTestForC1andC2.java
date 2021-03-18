@@ -57,10 +57,10 @@ public void beforeClass() throws MalformedURLException, InterruptedException  {
 		// Device configuration
 		
 		cap.setCapability("automationName", "Appium");
-		cap.setCapability("platformName", "Android");	
-		cap.setCapability("platformVersion", "9");
-		cap.setCapability("deviceName", "Vivo");
-		cap.setCapability("udid", "8SSCCMUCKV7SIVRG");  
+		cap.setCapability("platformName", "Android");
+	cap.setCapability("platformVersion", "10");
+	cap.setCapability("deviceName", "vivo 1907");
+	cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
 //		cap.setCapability("autoGrantPermission", "true");
 		cap.setCapability("appPackage", "com.ram.courier");
 		 cap.setCapability("appActivity", "com.ram.courier.activities.SplashScreen");
@@ -131,7 +131,7 @@ public void AtTheHub () throws InterruptedException {
 	  MobileElement el10 = (MobileElement) driver.findElementById("com.ram.courier:id/txt_dont_hv_ram_id");
 	  el10.click();
 	  MobileElement el13 = (MobileElement) driver.findElementById("com.ram.courier:id/et_sa_no");
-	  el13.sendKeys("7009155154085");
+	  el13.sendKeys("9512136290082");
 	  MobileElement el14 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit_member");
 	  el14.click();
 	 	  
@@ -145,8 +145,24 @@ public void AtTheHub () throws InterruptedException {
 	 
 	  MobileElement el22 = (MobileElement) driver.findElementById("com.ram.courier:id/et_ds_no");
 	  el22.sendKeys("DDISA15816827824");
-	  MobileElement el23 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit_ds_no");
-	  el23.click();
+	  MobileElement el213 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit_ds_no");
+	  el213.click();
+	  // Newly added lines
+
+//	  MobileElement el128 = (MobileElement) driver.findElementById("com.ram.courier:id/txt_dont_hv_ds");
+//	  el128.click();
+
+//	  MobileElement el212 = (MobileElement) driver.findElementById("com.ram.courier:id/et_ds_no");
+//	  el212.sendKeys("DDISA15917878517");
+//	  // Newly added lines
+//
+//	  MobileElement el1218 = (MobileElement) driver.findElementById("com.ram.courier:id/txt_dont_hv_ds");
+//	  el1218.click();
+//
+//	  MobileElement el221 = (MobileElement) driver.findElementById("com.ram.courier:id/et_ds_no");
+//	  el221.sendKeys("DDISA15822179704");
+//	  MobileElement el23 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit_ds_no");
+//	  el23.click();
 	  MobileElement el24 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
 	  el24.click();
 	  MobileElement el25 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");

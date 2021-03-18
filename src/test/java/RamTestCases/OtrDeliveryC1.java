@@ -56,10 +56,10 @@ public class OtrDeliveryC1 {
 		// Device configuration
 
 		cap.setCapability("automationName", "Appium");
-		cap.setCapability("platformName", "Android");	
-		cap.setCapability("platformVersion", "9");
-		cap.setCapability("deviceName", "Vivo");
-		cap.setCapability("udid", "8SSCCMUCKV7SIVRG");  
+		cap.setCapability("platformName", "Android");
+		cap.setCapability("platformVersion", "10");
+		cap.setCapability("deviceName", "vivo 1907");
+		cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
 //		cap.setCapability("autoGrantPermission", "true");
 		cap.setCapability("appPackage", "com.ram.courier");
 		cap.setCapability("appActivity", "com.ram.courier.activities.SplashScreen");
@@ -156,7 +156,9 @@ public class OtrDeliveryC1 {
 		clickOnbtnDelivery.click();
 
 
-		driver.findElementById("com.ram.courier:id/et_receiver_name").sendKeys("autotest");
+		driver.findElementById("com.ram.courier:id/et_receiver_fname").sendKeys("FNautotest");
+		driver.findElementById("com.ram.courier:id/et_receiver_lname").sendKeys("LNautotest");
+
 
 //		driver.findElement(By.xpath(props.getProperty(“mobile”))).click();
 //		Actions action = new Actions(driver);
@@ -239,8 +241,10 @@ public class OtrDeliveryC1 {
 		clickOnDeliveryBtn.click();
 		MobileElement clickOnOKBtn = (MobileElement) driver.findElementById("android:id/button1");
 		clickOnOKBtn.click();
-		MobileElement entertxtOnRecieverName = (MobileElement) driver.findElementById("com.ram.courier:id/et_receiver_name");
-		entertxtOnRecieverName.sendKeys("Autotest");
+//		MobileElement entertxtOnRecieverName = (MobileElement) driver.findElementById("com.ram.courier:id/et_receiver_name");
+//		entertxtOnRecieverName.sendKeys("Autotest");
+		driver.findElementById("com.ram.courier:id/et_receiver_fname").sendKeys("FNautotest");
+		driver.findElementById("com.ram.courier:id/et_receiver_lname").sendKeys("LNautotest");
 		MobileElement clickOnBtnProceed = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
 		clickOnBtnProceed.click();
 

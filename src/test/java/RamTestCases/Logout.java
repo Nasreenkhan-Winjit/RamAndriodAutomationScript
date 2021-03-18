@@ -55,26 +55,26 @@ public void beforeClass() throws MalformedURLException, InterruptedException  {
   			DesiredCapabilities cap = new DesiredCapabilities();
 		
 		// Device configuration
-		
-		cap.setCapability("automationName", "Appium");
-		cap.setCapability("platformName", "Android");	
-		cap.setCapability("platformVersion", "9");
-		cap.setCapability("deviceName", "Vivo");
-		cap.setCapability("udid", "8SSCCMUCKV7SIVRG");  
-//		cap.setCapability("autoGrantPermission", "true");
-		cap.setCapability("appPackage", "com.ram.courier");
-		 cap.setCapability("appActivity", "com.ram.courier.activities.SplashScreen");
-		 cap.setCapability("noReset", "true");
-		cap.setCapability("fullReset", "false");
-//		cap.setCapability("app","C:/Users/nasreenk/Desktop/Diawi/RAMMobile_UatDebug-2.9.38.apk" );
-	
-		 driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
-		 driver.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS) ;
+
+	cap.setCapability("automationName", "Appium");
+	cap.setCapability("platformName", "Android");
+	cap.setCapability("platformVersion", "10");
+	cap.setCapability("deviceName", "vivo 1907");
+	cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
+//  cap.setCapability("autoGrantPermission", "true");
+	cap.setCapability("appPackage", "com.ram.courier");
+	cap.setCapability("appActivity", "com.ram.courier.activities.SplashScreen");
+	cap.setCapability("noReset", "true");
+	cap.setCapability("fullReset", "false");
+//  cap.setCapability("app","C:/Users/nasreenk/Desktop/Diawi/RAMMobile_UatDebug-2.9.38.apk" );
+
+	driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+	driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 //	driver.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
 //	MobileElement el1 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[8]/android.widget.LinearLayout/android.widget.RadioButton");
-//el1.click();
-//MobileElement el2 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_save_hub_id");
-//el2.click();
+//  el1.click();
+//  MobileElement el2 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_save_hub_id");
+//  el2.click();
 }
 
 @BeforeMethod

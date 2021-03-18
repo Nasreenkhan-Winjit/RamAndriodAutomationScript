@@ -56,15 +56,15 @@ public class OtrDeleiveryC2 {
 		// Device configuration
 
 		cap.setCapability("automationName", "Appium");
-		cap.setCapability("platformName", "Android");	
-		cap.setCapability("platformVersion", "9");
-		cap.setCapability("deviceName", "Vivo");
-		cap.setCapability("udid", "8SSCCMUCKV7SIVRG");
+		cap.setCapability("platformName", "Android");
+		cap.setCapability("platformVersion", "10");
+		cap.setCapability("deviceName", "vivo 1907");
+		cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
 //		cap.setCapability("autoGrantPermission", "true");
 		cap.setCapability("appPackage", "com.ram.courier");
 		cap.setCapability("appActivity", "com.ram.courier.activities.SplashScreen");
-					 cap.setCapability("noReset", "true");
-					cap.setCapability("fullReset", "false");
+		cap.setCapability("noReset", "true");
+		cap.setCapability("fullReset", "false");
 
 
 		driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
@@ -131,11 +131,13 @@ public class OtrDeleiveryC2 {
 
 	@Test(description= "Delivery with Rule No7Step3 Valid OTP",priority= 2)
 
-	public void DeliverywithRuleNo7Step3ValidOTP() throws InterruptedException {	
+	public void DeliverywithRuleNo7Step3ValidOTP() throws InterruptedException {
 
-		driver.findElementById("com.ram.courier:id/et_otp").sendKeys("7444");
+		driver.findElementById("com.ram.courier:id/et_otp").sendKeys("6406");
 		driver.findElementById("com.ram.courier:id/btn_scan_proceed").click();
-		driver.findElementById("com.ram.courier:id/et_receiver_name").sendKeys("AutoTest");
+//		driver.findElementById("com.ram.courier:id/et_receiver_name").sendKeys("AutoTest");
+		driver.findElementById("com.ram.courier:id/et_receiver_fname").sendKeys("First Name");
+		driver.findElementById("com.ram.courier:id/et_receiver_lname").sendKeys("Last Name");
 		driver.findElementById("com.ram.courier:id/btn_proceed").click();
 
 	}
@@ -145,7 +147,7 @@ public class OtrDeleiveryC2 {
 
 	@Test(description= "GRV Delivery cover rule 5 and 6",priority= 3)
 
-	public void GRVDeliverywithrule5and6 () throws InterruptedException {	
+	public void GRVDeliverywithrule5and6 () throws InterruptedException {
 
 
 
@@ -155,7 +157,8 @@ public class OtrDeleiveryC2 {
 		el4.click();
 		MobileElement el5 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_delivery");
 		el5.click();
-		MobileElement el6 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_yes_grv");
+//		MobileElement el6 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_yes_grv");
+		MobileElement el6 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_yes_five");
 		el6.click();
 		MobileElement el7 = (MobileElement) driver.findElementById("com.ram.courier:id/et_grv_no");
 		el7.click();
@@ -164,9 +167,11 @@ public class OtrDeleiveryC2 {
 		el8.sendKeys("AutoGrvReceiver");
 		MobileElement el9 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_scan");
 		el9.click();
-		MobileElement el10 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_yes_invoice");
+//		MobileElement el10 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_yes_invoice");
+		MobileElement el10 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_yes_six");
 		el10.click();
-		MobileElement el11 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
+//		MobileElement el11 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
+		MobileElement el11 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_scan_proceed");
 		el11.click();
 
 	}
@@ -174,7 +179,7 @@ public class OtrDeleiveryC2 {
 	//Validate Back Btn
 	@Test(description= "Validate Back Button",priority= 4)
 
-	public void ValidateBackBtn () throws InterruptedException {	
+	public void ValidateBackBtn () throws InterruptedException {
 		MobileElement el1 = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
 		el1.sendKeys("J9858033.001");
 		el1.click();
@@ -193,7 +198,7 @@ public class OtrDeleiveryC2 {
 
 	@Test(description= "GRV Delivery Rule 5",priority= 5)
 
-	public void GRVdeliveryrule5 () throws InterruptedException {	
+	public void GRVdeliveryrule5 () throws InterruptedException {
 
 		MobileElement el1 = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
 		el1.sendKeys("J9858033.001");
@@ -201,13 +206,14 @@ public class OtrDeleiveryC2 {
 		el2.click();
 		MobileElement el3 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_delivery");
 		el3.click();
-		MobileElement el4 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_No_grv");
+		MobileElement el4 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_No_five");
 		el4.click();
 		MobileElement el5 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_no");
 		el5.click();
 		MobileElement el6 = (MobileElement) driver.findElementById("com.ram.courier:id/et_otp");
-		el6.sendKeys("4914");
-		MobileElement el7 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
+		el6.sendKeys("4351");
+//		MobileElement el7 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
+		MobileElement el7 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_scan_proceed");
 		el7.click();
 		MobileElement el8 = (MobileElement) driver.findElementById("com.ram.courier:id/et_name");
 		el8.sendKeys("AutoName");
@@ -219,7 +225,8 @@ public class OtrDeleiveryC2 {
 		el10.sendKeys("12345666");
 		MobileElement el11 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit");
 		el11.click();
-		MobileElement el12 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
+//		MobileElement el12 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
+		MobileElement el12 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_scan_proceed");
 		el12.click();
 
 	}
@@ -244,11 +251,13 @@ public class OtrDeleiveryC2 {
 		MobileElement el8 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_no");
 		el8.click();
 		MobileElement el9 = (MobileElement) driver.findElementById("com.ram.courier:id/et_otp");
-		el9.sendKeys("9856");
+		el9.sendKeys("1671");
 		MobileElement el10 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_scan_proceed");
 		el10.click();
-		MobileElement el11 = (MobileElement) driver.findElementById("com.ram.courier:id/et_receiver_name");
-		el11.sendKeys("AutoTestName");
+//		MobileElement el11 = (MobileElement) driver.findElementById("com.ram.courier:id/et_receiver_name");
+//		el11.sendKeys("AutoTestName");
+		driver.findElementById("com.ram.courier:id/et_receiver_fname").sendKeys("FNautotestName");
+		driver.findElementById("com.ram.courier:id/et_receiver_lname").sendKeys("LNautotestName");
 		MobileElement el12 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
 		el12.click();
 //		MobileElement el13 = (MobileElement) driver.findElementById("android:id/button1");

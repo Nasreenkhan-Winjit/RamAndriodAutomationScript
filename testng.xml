@@ -3,16 +3,17 @@
 <suite name="Default Suite">
     <test name="Regression Test">
         <classes>
-            <class name="RamTestCases.Login">
-<!--                <class name="RamTestCases.OtrCollection">-->
-<!--            <class name="RamTestCases.OtrDeliveryC1">-->
-<!--            <class name="RamTestCases.OtrDeleiveryC2">-->
-<!--            <class name="RamTestCases.Logout">-->
-<!--            <class name="RamTestCases.BaseDevTestForRestModule">-->
-<!--            <class name="RamTestCases.BaseTestForC1andC2">-->
-<!--            <class name="RamTestCases.OtrAdhocParcel">-->
-<!--            <class name="RamTestCases.OtrHandoverParcel">-->
-<!--            <class name="RamTestCases.OtrReturnToHub">-->
+<!--             <class name="RamTestCases.Login">-->
+<!--             <class name="RamTestCases.OtrCollection">-->
+<!--                 <class name="RamTestCases.OtrDeliveryC1">-->
+<!--             <class name="RamTestCases.OtrDeleiveryC2">-->
+             <class name="RamTestCases.OtrDeliveryC3">
+<!--             <class name="RamTestCases.Logout">-->
+<!--             <class name="RamTestCases.BaseDevTestForRestModule">-->
+<!--                                            <class name="RamTestCases.BaseTestForC1andC2">-->
+<!--                            <class name="RamTestCases.OtrAdhocParcel">-->
+<!--                            <class name="RamTestCases.OtrHandoverParcel">-->
+<!--                            <class name="RamTestCases.OtrReturnToHub">-->
 
 
             </class> <!-- testscreens.TestAcceptPermission -->

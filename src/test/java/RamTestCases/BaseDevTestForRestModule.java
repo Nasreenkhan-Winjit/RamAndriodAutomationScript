@@ -57,10 +57,10 @@ public void beforeClass() throws MalformedURLException, InterruptedException  {
 		// Device configuration
 		
 		cap.setCapability("automationName", "Appium");
-		cap.setCapability("platformName", "Android");	
-		cap.setCapability("platformVersion", "9");
-		cap.setCapability("deviceName", "Vivo");
-		cap.setCapability("udid", "8SSCCMUCKV7SIVRG");  
+		cap.setCapability("platformName", "Android");
+	cap.setCapability("platformVersion", "10");
+	cap.setCapability("deviceName", "vivo 1907");
+	cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
 //		cap.setCapability("autoGrantPermission", "true");
 		cap.setCapability("appPackage", "com.ram.courier");
 		 cap.setCapability("appActivity", "com.ram.courier.activities.SplashScreen");
