@@ -59,7 +59,8 @@ public class OtrDeleiveryC2 {
 		cap.setCapability("platformName", "Android");
 		cap.setCapability("platformVersion", "10");
 		cap.setCapability("deviceName", "vivo 1907");
-		cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
+		cap.setCapability("udid", "192.168.0.3:5555");
+//		cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
 //		cap.setCapability("autoGrantPermission", "true");
 		cap.setCapability("appPackage", "com.ram.courier");
 		cap.setCapability("appActivity", "com.ram.courier.activities.SplashScreen");
@@ -133,7 +134,7 @@ public class OtrDeleiveryC2 {
 
 	public void DeliverywithRuleNo7Step3ValidOTP() throws InterruptedException {
 
-		driver.findElementById("com.ram.courier:id/et_otp").sendKeys("6406");
+		driver.findElementById("com.ram.courier:id/et_otp").sendKeys("10013");
 		driver.findElementById("com.ram.courier:id/btn_scan_proceed").click();
 //		driver.findElementById("com.ram.courier:id/et_receiver_name").sendKeys("AutoTest");
 		driver.findElementById("com.ram.courier:id/et_receiver_fname").sendKeys("First Name");
@@ -155,6 +156,14 @@ public class OtrDeleiveryC2 {
 		el3.sendKeys("J2081929.001");
 		MobileElement el4 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
 		el4.click();
+// Reason code
+		MobileElement selectReason1 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_reason3");
+		selectReason1.click();
+		MobileElement enterTxt = (MobileElement) driver.findElementById("com.ram.courier:id/et_note");
+		enterTxt.sendKeys("Test Ops Officer Reason");
+		MobileElement submitBtn = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit");
+		submitBtn.click();
+
 		MobileElement el5 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_delivery");
 		el5.click();
 //		MobileElement el6 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_yes_grv");
@@ -211,7 +220,7 @@ public class OtrDeleiveryC2 {
 		MobileElement el5 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_no");
 		el5.click();
 		MobileElement el6 = (MobileElement) driver.findElementById("com.ram.courier:id/et_otp");
-		el6.sendKeys("4351");
+		el6.sendKeys("2209");
 //		MobileElement el7 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
 		MobileElement el7 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_scan_proceed");
 		el7.click();
@@ -239,7 +248,7 @@ public class OtrDeleiveryC2 {
 
 		
 		MobileElement el3 = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
-		el3.sendKeys("K1781740.001");
+			el3.sendKeys("K1781740.001");
 		MobileElement el4 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
 		el4.click();
 		MobileElement el5 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_delivery");
@@ -251,7 +260,7 @@ public class OtrDeleiveryC2 {
 		MobileElement el8 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_no");
 		el8.click();
 		MobileElement el9 = (MobileElement) driver.findElementById("com.ram.courier:id/et_otp");
-		el9.sendKeys("1671");
+		el9.sendKeys("8640");
 		MobileElement el10 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_scan_proceed");
 		el10.click();
 //		MobileElement el11 = (MobileElement) driver.findElementById("com.ram.courier:id/et_receiver_name");
@@ -280,6 +289,15 @@ public class OtrDeleiveryC2 {
 		el1.sendKeys("PEPA03-91234569.001");
 		MobileElement el2 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
 		el2.click();
+
+// /Reason code
+		MobileElement selectReason1 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_reason4");
+		selectReason1.click();
+		MobileElement enterTxt = (MobileElement) driver.findElementById("com.ram.courier:id/et_note");
+		enterTxt.sendKeys("Test Courier Support Reason");
+		MobileElement submitBtn = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit");
+		submitBtn.click();
+
 		MobileElement el3 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_delivery");
 		el3.click();
 		MobileElement el4 = (MobileElement) driver.findElementById("android:id/button1");
@@ -309,6 +327,16 @@ public class OtrDeleiveryC2 {
 		el3.sendKeys("RW18220294.001");
 		MobileElement el4 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
 		el4.click();
+//Reason code
+		MobileElement selectReason1 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_reason5");
+		selectReason1.click();
+
+		MobileElement enterTxtOnOthersField = (MobileElement) driver.findElementById("com.ram.courier:id/et_note");
+		enterTxtOnOthersField.click();
+		enterTxtOnOthersField.sendKeys("Test others reason second ");
+     	MobileElement submitBtn = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit");
+		submitBtn.click();
+
 		MobileElement el5 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_delivery");
 		el5.click();
 		MobileElement el6 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_No_available");

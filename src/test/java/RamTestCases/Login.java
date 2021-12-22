@@ -28,13 +28,14 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class Login extends ExtentReportBuilder {
 	public AppiumDriver<MobileElement> driver;
 	private static ExtentReports extent;
-   
-    
-	public  ThreadLocal<ExtentTest>  parentTest = new ThreadLocal<ExtentTest>();
-   
-    public ThreadLocal<ExtentTest>  test = new ThreadLocal<ExtentTest>();
-    
-    
+
+
+
+	public ThreadLocal<ExtentTest> parentTest = new ThreadLocal<ExtentTest>();
+
+	public ThreadLocal<ExtentTest> test = new ThreadLocal<ExtentTest>();
+
+
 	@BeforeSuite
 	public void beforeSuite() {
 		extent = ExtentManager.createInstance("~\\..\\Result\\LoginReport.html");
@@ -61,13 +62,14 @@ public void beforeClass() throws MalformedURLException, InterruptedException  {
 	cap.setCapability("platformName", "Android");
 	cap.setCapability("platformVersion", "10");
 	cap.setCapability("deviceName", "vivo 1907");
-	cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
+	cap.setCapability("udid", "192.168.0.3:5555");
+//	cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
 //	cap.setCapability("autoGrantPermission", "true");
 	cap.setCapability("appPackage", "com.ram.courier");
 	cap.setCapability("appActivity", "com.ram.courier.activities.SplashScreen");
 	cap.setCapability("noReset", "true");
 	cap.setCapability("fullReset", "false");
-	cap.setCapability("app","C:/Users/nasreenk/Desktop/Diawi/RAMMobile_Uat-2.9.54.2.apk" );
+//	cap.setCapability("app","C:\\Users\\nasreenk\\Desktop\\Diawi\\RAMMobile_Uat-2.9.67(2).apk" );
 
 	driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
 	driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
@@ -77,10 +79,14 @@ public void beforeClass() throws MalformedURLException, InterruptedException  {
 	driver.findElementById("com.android.permissioncontroller:id/permission_allow_button").click();
 
 //	MobileElement el1 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[8]/android.widget.LinearLayout/android.widget.RadioButton");
-	MobileElement el1 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[6]/android.widget.LinearLayout/android.widget.RadioButton");
-	el1.click();
-	MobileElement el2 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_save_hub_id");
-	el2.click();
+//	MobileElement el1 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[6]/android.widget.LinearLayout/android.widget.RadioButton");
+//	el1.click();
+	MobileElement selectHubID = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[6]/android.widget.LinearLayout/android.widget.RadioButton");
+	selectHubID.click();
+//
+
+	MobileElement hubDBN = (MobileElement) driver.findElementById("com.ram.courier:id/btn_save_hub_id");
+	hubDBN.click();
 }
 
 @BeforeMethod
@@ -117,9 +123,12 @@ public void AtTheHub () throws InterruptedException {
 //			 driver.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
 //			 driver.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
 
+//			 driver.findElementById("com.android.permissioncontroller:id/permission_allow_button").click();
+			 driver.findElementById("com.android.permissioncontroller:id/permission_allow_foreground_only_button").click();
+			 driver.findElementById("com.android.permissioncontroller:id/permission_allow_foreground_only_button").click();
+//			 driver.findElementById("com.android.permissioncontroller:id/permission_allow_button").click();
+//			 driver.findElementById("com.android.permissioncontroller:id/permission_allow_always_button").click();
 			 driver.findElementById("com.android.permissioncontroller:id/permission_allow_button").click();
-			 driver.findElementById("com.android.permissioncontroller:id/permission_allow_button").click();
-			 driver.findElementById("com.android.permissioncontroller:id/permission_allow_always_button").click();
 			 driver.findElementById("com.android.permissioncontroller:id/permission_allow_button").click();
 //
 

@@ -32,4 +32,5 @@ public class ExtentReportBuilder {
 	        return extent;
 	    }
 	}
+
 }

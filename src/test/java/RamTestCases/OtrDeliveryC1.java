@@ -59,7 +59,8 @@ public class OtrDeliveryC1 {
 		cap.setCapability("platformName", "Android");
 		cap.setCapability("platformVersion", "10");
 		cap.setCapability("deviceName", "vivo 1907");
-		cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
+		cap.setCapability("udid", "192.168.0.3:5555");
+//		cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
 //		cap.setCapability("autoGrantPermission", "true");
 		cap.setCapability("appPackage", "com.ram.courier");
 		cap.setCapability("appActivity", "com.ram.courier.activities.SplashScreen");
@@ -119,6 +120,8 @@ public class OtrDeliveryC1 {
 		entertxtInvalidWaybillNo.click();
 		MobileElement clickOnAddParcelbtn = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
 		clickOnAddParcelbtn.click();
+
+
 		MobileElement clickONoKBtn = (MobileElement) driver.findElementById("android:id/button1");
 		clickONoKBtn.click();
 
@@ -129,19 +132,35 @@ public class OtrDeliveryC1 {
 	public void DeliveryvalidParcelNo () throws InterruptedException {
 
 
-		MobileElement clickOnFirstwaybillNo = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox");
-		clickOnFirstwaybillNo.click();
-		driver.findElementById("com.ram.courier:id/btn_next_deliveries").click();
-		MobileElement clickOnProceedBtn = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
-		clickOnProceedBtn.click();
-		MobileElement clickOnOkBtn1 = (MobileElement) driver.findElementById("android:id/button1");
-		clickOnOkBtn1.click();
-		MobileElement entertxtValidWybillNo = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
-		entertxtValidWybillNo.sendKeys("A0350538.001");
-		MobileElement clickOnbtnAddParcel = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
-		clickOnbtnAddParcel.click();
-		MobileElement clickOnProceedBtn1 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
-		clickOnProceedBtn1.click();
+//		MobileElement clickOnFirstwaybillNo = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox");
+//		clickOnFirstwaybillNo.click();
+//		driver.findElementById("com.ram.courier:id/btn_next_deliveries").click();
+
+
+		MobileElement entertxtInvalidWaybillNo = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
+		entertxtInvalidWaybillNo.sendKeys("A0350538.001");
+		entertxtInvalidWaybillNo.click();
+		MobileElement clickOnAddParcelbtn = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
+		clickOnAddParcelbtn.click();
+//		Reason code
+
+		MobileElement selectReason1 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_reason1");
+		selectReason1.click();
+		MobileElement enterTxt = (MobileElement) driver.findElementById("com.ram.courier:id/et_note");
+		enterTxt.sendKeys("Test Risk and Security Reason");
+		MobileElement submitBtn = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit");
+		submitBtn.click();
+
+//		MobileElement clickOnProceedBtn = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
+//		clickOnProceedBtn.click();
+//		MobileElement clickOnOkBtn1 = (MobileElement) driver.findElementById("android:id/button1");
+//		clickOnOkBtn1.click();
+//		MobileElement entertxtValidWybillNo = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
+//		entertxtValidWybillNo.sendKeys("A0350538.001");
+//		MobileElement clickOnbtnAddParcel = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
+//		clickOnbtnAddParcel.click();
+//		MobileElement clickOnProceedBtn1 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
+//		clickOnProceedBtn1.click();
 
 
 
@@ -160,10 +179,6 @@ public class OtrDeliveryC1 {
 		driver.findElementById("com.ram.courier:id/et_receiver_lname").sendKeys("LNautotest");
 
 
-//		driver.findElement(By.xpath(props.getProperty(“mobile”))).click();
-//		Actions action = new Actions(driver);
-//		action.sendKeys(“Mobile”).perform();
-
 		MobileElement Proceedbtn = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
 		Proceedbtn.click();
 	}
@@ -172,22 +187,31 @@ public class OtrDeliveryC1 {
 
 	public void NonDeliveryCompleteProcess () throws InterruptedException {
 
-		MobileElement clickOnFirstwaybillNo = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox");
-		clickOnFirstwaybillNo.click();
-		driver.findElementById("com.ram.courier:id/btn_next_deliveries").click();
+
+
 		MobileElement entertxtInvalidWaybillNo = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
 		entertxtInvalidWaybillNo.sendKeys("AFRI02-00021571.001");
 		MobileElement clickOnBtnAddParcel = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
 		clickOnBtnAddParcel.click();
-		clickOnBtnAddParcel.click();
-		MobileElement clickOnOkBtn = (MobileElement) driver.findElementById("android:id/button1");
-		clickOnOkBtn.click();
-		MobileElement entertxtValidWaybillNo = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
-		entertxtValidWaybillNo.sendKeys("AFRI02-00021571.001");
-		MobileElement clickOnAddParcelbtn = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
-		clickOnAddParcelbtn.click();
-		MobileElement clickOnbtnProceed1 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
-		clickOnbtnProceed1.click();
+
+		//		Reason code
+
+		MobileElement selectReason1 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_reason2");
+		selectReason1.click();
+		MobileElement enterTxt = (MobileElement) driver.findElementById("com.ram.courier:id/et_note");
+		enterTxt.sendKeys("Test Hub Manager Reason");
+		MobileElement submitBtn = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit");
+		submitBtn.click();
+
+//		MobileElement clickOnOkBtn = (MobileElement) driver.findElementById("android:id/button1");
+//		clickOnOkBtn.click();
+
+//		MobileElement entertxtValidWaybillNo = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
+//		entertxtValidWaybillNo.sendKeys("AFRI02-00021571.001");
+//		MobileElement clickOnAddParcelbtn = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
+//		clickOnAddParcelbtn.click();
+//		MobileElement clickOnbtnProceed1 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
+//		clickOnbtnProceed1.click();
 		MobileElement clickOnNonDeliveryBtn = (MobileElement) driver.findElementById("com.ram.courier:id/btn_non_delivery");
 		clickOnNonDeliveryBtn.click();
 		MobileElement clickOnPopUpOfNonDelivery = (MobileElement) driver.findElementById("com.ram.courier:id/tv_non_delivery_option");
@@ -222,7 +246,20 @@ public class OtrDeliveryC1 {
 		clickOnOkBtnError.click();
 		MobileElement clickOnfirstwaybillNo = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox");
 		clickOnfirstwaybillNo.click();
+
+		MobileElement cELLCGroup  = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[3]/android.widget.LinearLayout/android.widget.CheckBox");
+		cELLCGroup.click();
 		driver.findElementById("com.ram.courier:id/btn_next_deliveries").click();
+
+		//		Reason code
+
+		MobileElement selectReason1 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_reason3");
+		selectReason1.click();
+		MobileElement enterTxt = (MobileElement) driver.findElementById("com.ram.courier:id/et_note");
+		enterTxt.sendKeys("Test Ops Officer Reason");
+		MobileElement submitBtn = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit");
+		submitBtn.click();
+
 		MobileElement entertxtwaybillNo1 = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
 		entertxtwaybillNo1.sendKeys("PLAT05-90023456.001");
 		MobileElement clickOnAddParcelbtn1 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
@@ -235,6 +272,28 @@ public class OtrDeliveryC1 {
 		entertxtwaybillNo3.sendKeys("PLAT05-94123456.001");
 		MobileElement clickOnAddParcelbtn3 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
 		clickOnAddParcelbtn3.click();
+
+		MobileElement entertxtwaybillNo4 = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
+		entertxtwaybillNo4.sendKeys("CELLC11663226.001");
+		MobileElement aDDParcelBtn4 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
+		aDDParcelBtn4.click();
+
+		MobileElement entertxtwaybillNo5 = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
+		entertxtwaybillNo5.sendKeys("CELLC11663226.002");
+		MobileElement aDDParcelBtn5 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
+		aDDParcelBtn5.click();
+
+		MobileElement entertxtwaybillNo6 = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
+		entertxtwaybillNo6.sendKeys("CELLC11663226.003");
+		MobileElement aDDParcelBtn3 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
+		aDDParcelBtn3.click();
+
+		MobileElement entertxtwaybillNo7 = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
+		entertxtwaybillNo7.sendKeys("CELLC11663226.004");
+		MobileElement aDDParcelBtn6 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
+		aDDParcelBtn6.click();
+
+
 		MobileElement clickOnProceedBtn = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
 		clickOnProceedBtn.click();
 		MobileElement clickOnDeliveryBtn = (MobileElement) driver.findElementById("com.ram.courier:id/btn_delivery");
@@ -248,8 +307,43 @@ public class OtrDeliveryC1 {
 		MobileElement clickOnBtnProceed = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
 		clickOnBtnProceed.click();
 
-
 	}
+	@Test(description= "GroupDelivery",priority= 5)
+
+	public void deliverWithOtherReason2() throws InterruptedException {
+
+		MobileElement el1 = (MobileElement) driver.findElementById("com.ram.courier:id/et_waybill_no");
+		el1.click();
+		el1.sendKeys("ST00038953.001");
+		MobileElement el2 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
+		el2.click();
+		MobileElement el3 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_reason5");
+		el3.click();
+		MobileElement el4 = (MobileElement) driver.findElementById("com.ram.courier:id/et_note");
+		el4.sendKeys("Test others reason2");
+		MobileElement el5 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit");
+		el5.click();
+		MobileElement el6 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_non_delivery");
+		el6.click();
+		MobileElement el7 = (MobileElement) driver.findElementById("com.ram.courier:id/tv_non_delivery_option");
+		el7.click();
+		MobileElement el8 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[3]");
+		el8.click();
+		MobileElement el9 = (MobileElement) driver.findElementById("com.ram.courier:id/tv_select_reason");
+		el9.click();
+		MobileElement el10 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[4]");
+		el10.click();
+		MobileElement el11 = (MobileElement) driver.findElementById("com.ram.courier:id/tv_detailed_reason");
+		el11.click();
+		MobileElement el12 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
+		el12.click();
+		MobileElement el13 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit_reason");
+		el13.click();
+		MobileElement el14 = (MobileElement) driver.findElementById("android:id/button1");
+		el14.click();
+	}
+
+
 
 
 
