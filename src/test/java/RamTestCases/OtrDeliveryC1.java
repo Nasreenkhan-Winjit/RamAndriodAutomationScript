@@ -59,7 +59,7 @@ public class OtrDeliveryC1 {
 		cap.setCapability("platformName", "Android");
 		cap.setCapability("platformVersion", "10");
 		cap.setCapability("deviceName", "vivo 1907");
-		cap.setCapability("udid", "192.168.0.3:5555");
+		cap.setCapability("udid", "192.168.0.2:5555");
 //		cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
 //		cap.setCapability("autoGrantPermission", "true");
 		cap.setCapability("appPackage", "com.ram.courier");
@@ -244,10 +244,11 @@ public class OtrDeliveryC1 {
 		driver.findElementById("com.ram.courier:id/btn_next_deliveries").click();
 		MobileElement clickOnOkBtnError = (MobileElement) driver.findElementById("android:id/button1");
 		clickOnOkBtnError.click();
-		MobileElement clickOnfirstwaybillNo = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox");
+//		MobileElement clickOnfirstwaybillNo = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox");
+		MobileElement clickOnfirstwaybillNo = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.widget.CheckBox");
 		clickOnfirstwaybillNo.click();
 
-		MobileElement cELLCGroup  = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[3]/android.widget.LinearLayout/android.widget.CheckBox");
+		MobileElement cELLCGroup  = (MobileElement) driver.findElementByXPath("\t/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox");
 		cELLCGroup.click();
 		driver.findElementById("com.ram.courier:id/btn_next_deliveries").click();
 

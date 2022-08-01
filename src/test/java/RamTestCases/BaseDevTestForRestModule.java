@@ -60,7 +60,7 @@ public void beforeClass() throws MalformedURLException, InterruptedException  {
 		cap.setCapability("platformName", "Android");
 	cap.setCapability("platformVersion", "10");
 	cap.setCapability("deviceName", "vivo 1907");
-	cap.setCapability("udid", "192.168.0.3:5555");
+	cap.setCapability("udid", "192.168.9.33:5555");
 //	cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
 //		cap.setCapability("autoGrantPermission", "true");
 		cap.setCapability("appPackage", "com.ram.courier");
@@ -123,7 +123,7 @@ public void AtTheHub () throws InterruptedException {
 	  el1.click();
 	 
 	  MobileElement el7 = (MobileElement) driver.findElementById("com.ram.courier:id/edt_ram_employee_id");
-	  el7.sendKeys("7301310157081");
+	  el7.sendKeys("8802246238084");
 	  MobileElement el8 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_login");
 	  el8.click();
 	  

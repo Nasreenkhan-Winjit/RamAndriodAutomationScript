@@ -59,7 +59,7 @@ public class OtrCollection {
 		cap.setCapability("platformName", "Android");
 		cap.setCapability("platformVersion", "10");
 		cap.setCapability("deviceName", "vivo 1907");
-		cap.setCapability("udid", "192.168.0.3:5555");
+		cap.setCapability("udid", "192.168.9.33:5555");
 //		cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
 //		cap.setCapability("autoGrantPermission", "true");
 		cap.setCapability("appPackage", "com.ram.courier");
@@ -107,9 +107,9 @@ public class OtrCollection {
 		okBtnOnReturntoHubPopUp .click();
 
 // Reject Collection
-		MobileElement el1 = (MobileElement) driver.findElementByAccessibilityId("Pending(3)");
+		MobileElement el1 = (MobileElement) driver.findElementByAccessibilityId("Pending(2)");
 		el1.click();
-		MobileElement el2 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox");
+		MobileElement el2 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox");
 		el2.click();
 		MobileElement el3 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed_collection");
 		el3.click();
@@ -184,7 +184,7 @@ public class OtrCollection {
 
 	public void CaseToVerifyAcceptCollection() throws InterruptedException {
 
-		MobileElement el1 = (MobileElement) driver.findElementByAccessibilityId("Pending(2)");
+		MobileElement el1 = (MobileElement) driver.findElementByAccessibilityId("Pending(1)");
 		el1.click();
 		el1.click();
 		MobileElement el2 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed_collection");
@@ -216,8 +216,8 @@ public class OtrCollection {
 
 	public void CaseToVerifySelectConsignmentforMissedCollection() throws InterruptedException {
 
-
-		MobileElement el1 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox");
+		MobileElement el1 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox");
+//		                                                                     /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[3]/android.widget.LinearLayout/android.widget.CheckBox
 		el1.click();
 		MobileElement el2 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed_collection");
 		el2.click();
@@ -304,7 +304,7 @@ public class OtrCollection {
 	public void CaseToVerifySelectConsignmentNFollowCollectionProcessCancelBtn() throws InterruptedException {
 
 
-		MobileElement el1 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox");
+		MobileElement el1 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox");
 		el1.click();
 		MobileElement el2 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed_collection");
 		el2.click();
@@ -412,7 +412,7 @@ public class OtrCollection {
 
 
 		//verify  collection details
-		MobileElement el1 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox");
+		MobileElement el1 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox");
 		el1.click();
 		MobileElement el2 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed_collection");
 		el2.click();

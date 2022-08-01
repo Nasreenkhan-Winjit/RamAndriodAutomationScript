@@ -59,7 +59,7 @@ public class OtrDeleiveryC2 {
 		cap.setCapability("platformName", "Android");
 		cap.setCapability("platformVersion", "10");
 		cap.setCapability("deviceName", "vivo 1907");
-		cap.setCapability("udid", "192.168.0.3:5555");
+		cap.setCapability("udid", "192.168.0.2:5555");
 //		cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
 //		cap.setCapability("autoGrantPermission", "true");
 		cap.setCapability("appPackage", "com.ram.courier");
@@ -134,7 +134,7 @@ public class OtrDeleiveryC2 {
 
 	public void DeliverywithRuleNo7Step3ValidOTP() throws InterruptedException {
 
-		driver.findElementById("com.ram.courier:id/et_otp").sendKeys("10013");
+		driver.findElementById("com.ram.courier:id/et_otp").sendKeys("12280");
 		driver.findElementById("com.ram.courier:id/btn_scan_proceed").click();
 //		driver.findElementById("com.ram.courier:id/et_receiver_name").sendKeys("AutoTest");
 		driver.findElementById("com.ram.courier:id/et_receiver_fname").sendKeys("First Name");
@@ -157,7 +157,7 @@ public class OtrDeleiveryC2 {
 		MobileElement el4 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_add_parcel");
 		el4.click();
 // Reason code
-		MobileElement selectReason1 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_reason3");
+		MobileElement selectReason1 = (MobileElement) driver. findElementById("com.ram.courier:id/rb_reason3");
 		selectReason1.click();
 		MobileElement enterTxt = (MobileElement) driver.findElementById("com.ram.courier:id/et_note");
 		enterTxt.sendKeys("Test Ops Officer Reason");
@@ -220,10 +220,16 @@ public class OtrDeleiveryC2 {
 		MobileElement el5 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_no");
 		el5.click();
 		MobileElement el6 = (MobileElement) driver.findElementById("com.ram.courier:id/et_otp");
-		el6.sendKeys("2209");
+		el6.sendKeys("2802");
 //		MobileElement el7 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
 		MobileElement el7 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_scan_proceed");
 		el7.click();
+		MobileElement el11 = (MobileElement) driver.findElementById("android:id/button1");
+		el11.click();
+		MobileElement el21 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_yes_seven");
+		el21.click();
+		MobileElement el31 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_scan_proceed");
+		el31.click();
 		MobileElement el8 = (MobileElement) driver.findElementById("com.ram.courier:id/et_name");
 		el8.sendKeys("AutoName");
 		MobileElement el9 = (MobileElement) driver.findElementById("com.ram.courier:id/et_email");
@@ -232,11 +238,16 @@ public class OtrDeleiveryC2 {
 		MobileElement el10 = (MobileElement) driver.findElementById("com.ram.courier:id/et_contact_no");
 		el10.click();
 		el10.sendKeys("12345666");
-		MobileElement el11 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit");
-		el11.click();
+		MobileElement el111 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit");
+		el111.click();
 //		MobileElement el12 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_proceed");
 		MobileElement el12 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_scan_proceed");
 		el12.click();
+
+//		MobileElement hasTheDocStampedQ2 = (MobileElement) driver.findElementById("com.ram.courier:id/rb_yes_seven");
+//		hasTheDocStampedQ2.click();
+//		MobileElement proceedBtn = (MobileElement) driver.findElementById("com.ram.courier:id/btn_scan_proceed");
+//		proceedBtn.click();
 
 	}
 
@@ -260,7 +271,7 @@ public class OtrDeleiveryC2 {
 		MobileElement el8 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_no");
 		el8.click();
 		MobileElement el9 = (MobileElement) driver.findElementById("com.ram.courier:id/et_otp");
-		el9.sendKeys("8640");
+		el9.sendKeys("10209");
 		MobileElement el10 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_scan_proceed");
 		el10.click();
 //		MobileElement el11 = (MobileElement) driver.findElementById("com.ram.courier:id/et_receiver_name");

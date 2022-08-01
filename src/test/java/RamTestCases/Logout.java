@@ -60,7 +60,7 @@ public void beforeClass() throws MalformedURLException, InterruptedException  {
 	cap.setCapability("platformName", "Android");
 	cap.setCapability("platformVersion", "10");
 	cap.setCapability("deviceName", "vivo 1907");
-	cap.setCapability("udid", "192.168.0.3:5555");
+	cap.setCapability("udid", "192.168.0.2:5555");
 //	cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
 //  cap.setCapability("autoGrantPermission", "true");
 	cap.setCapability("appPackage", "com.ram.courier");
@@ -123,7 +123,8 @@ public synchronized void afterMethod(ITestResult result) {
 	  public void SelectMembertoLogoutandClickOnNo() {
 		  
 		  
-	  MobileElement el7 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox");
+//	  MobileElement el7 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox");
+	  MobileElement el7 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.CheckBox");
 	  el7.click();
 	  MobileElement el8 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_logout");
 	  el8.click();

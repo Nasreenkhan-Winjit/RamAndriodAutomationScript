@@ -37,12 +37,16 @@ public class BaseTestForC1andC2 {
 	@BeforeSuite
 	public void beforeSuite() {
 		extent = ExtentManager.createInstance("~\\..\\Result\\BaseTestforC1NC2Report.html");
+//		extent = ExtentManager.createInstance("~\\..\\Result\\999RestrictionRemovedTestReport.html");
 		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("~\\..\\Result\\BaseTestforC1NC2Report.html");
+//		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("~\\..\\Result\\999RestrictionRemovedTestReport.html");
 		extent.attachReporter(htmlReporter);
 		htmlReporter.config().setTheme(Theme.DARK);
 		htmlReporter.config().setReportName("AutomationReport-BaseTestforC1NC2Report");
 		htmlReporter.config().setDocumentTitle("AutomationReport-BaseTestforC1NC2Report");
-		
+//		htmlReporter.config().setReportName("AutomationReport-999RestrictionRemovedTestReport");
+//		htmlReporter.config().setDocumentTitle("AutomationReport-999RestrictionRemovedTestReport");
+
 	}
 	
 	
@@ -57,10 +61,11 @@ public void beforeClass() throws MalformedURLException, InterruptedException  {
 		// Device configuration
 		
 		cap.setCapability("automationName", "Appium");
+//		cap.setCapability("automationName", "UiAutomator1");
 		cap.setCapability("platformName", "Android");
 	cap.setCapability("platformVersion", "10");
 	cap.setCapability("deviceName", "vivo 1907");
-	cap.setCapability("udid", "192.168.0.3:5555");
+	cap.setCapability("udid", "192.168.9.33:5555");
 //	cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
 //		cap.setCapability("autoGrantPermission", "true");
 		cap.setCapability("appPackage", "com.ram.courier");
@@ -123,7 +128,7 @@ public void AtTheHub () throws InterruptedException {
 	  el1.click();
 	 
 	  MobileElement el7 = (MobileElement) driver.findElementById("com.ram.courier:id/edt_ram_employee_id");
-	  el7.sendKeys("7301310157081");
+	  el7.sendKeys("8802246238084");
 	  MobileElement el8 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_login");
 	  el8.click();
 	  
@@ -132,7 +137,8 @@ public void AtTheHub () throws InterruptedException {
 	  MobileElement el10 = (MobileElement) driver.findElementById("com.ram.courier:id/txt_dont_hv_ram_id");
 	  el10.click();
 	  MobileElement el13 = (MobileElement) driver.findElementById("com.ram.courier:id/et_sa_no");
-	  el13.sendKeys("9512136290082");
+//	  el13.sendKeys("9512136290082");
+		  el13.sendKeys("8111140110088");
 	  MobileElement el14 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit_member");
 	  el14.click();
 	 	  
@@ -145,11 +151,21 @@ public void AtTheHub () throws InterruptedException {
 
 	 
 	  MobileElement el22 = (MobileElement) driver.findElementById("com.ram.courier:id/et_ds_no");
-	  el22.sendKeys("DDISA16327469024");
+	  el22.sendKeys("DDISA15816827824");
+//	  el22.sendKeys("DDISA16521717725");
 //	  el22.sendKeys("DDPLZ14944011674");
 //	  DDISA15816827824
 //	  DDISA13959025107
-//    DDISA16327469024
+//    DDISA16327469024----SAID Parcels
+//    DDISA16579617778-- Confidence level manifest
+//	  DDISA16587472398---
+
+//	  9999
+//	  1.	DDISA16395682938
+//	  2.	DDISA16395687314
+//	  3.	DDISA16395690751
+//	  4.	DDBLM16395757097
+
 
 	  MobileElement el213 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit_ds_no");
 	  el213.click();
@@ -175,7 +191,7 @@ public void AtTheHub () throws InterruptedException {
 	  el25.click();
 
 	  MobileElement el29 = (MobileElement) driver.findElementById("com.ram.courier:id/et_total_parcels");
-	  el29.sendKeys("18");
+	  el29.sendKeys("19");
 	 	  
 	  MobileElement el30 = (MobileElement) driver.findElementById("com.ram.courier:id/proceed_for_further_sheet");
 	  el30.click();

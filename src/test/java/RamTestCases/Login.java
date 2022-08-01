@@ -62,7 +62,7 @@ public void beforeClass() throws MalformedURLException, InterruptedException  {
 	cap.setCapability("platformName", "Android");
 	cap.setCapability("platformVersion", "10");
 	cap.setCapability("deviceName", "vivo 1907");
-	cap.setCapability("udid", "192.168.0.3:5555");
+	cap.setCapability("udid", "192.168.0.2:5555");
 //	cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
 //	cap.setCapability("autoGrantPermission", "true");
 	cap.setCapability("appPackage", "com.ram.courier");
@@ -169,7 +169,7 @@ public void AtTheHub () throws InterruptedException {
 		    
 	 
 	  MobileElement el7 = (MobileElement) driver.findElementById("com.ram.courier:id/edt_ram_employee_id");
-	  el7.sendKeys("7301310157081");
+	  el7.sendKeys("8802246238084");
 	  MobileElement el8 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_login");
 	  el8.click();
 	  
@@ -194,11 +194,11 @@ public void LoginValidCrewMemberID() throws InterruptedException {
 	  MobileElement el12 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit_member");
 	  el12.click();
 	  MobileElement el13 = (MobileElement) driver.findElementById("com.ram.courier:id/et_sa_no");
-	  el13.sendKeys("9512136290082");
+	  el13.sendKeys("8111140110088");
 	  MobileElement el14 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit_member");
 	  el14.click();
 	  
-}  
+}
 @Test(description= "Proceed without entering id", priority = 5 )
 
 public void InvalidProceedToScan() throws InterruptedException {	
