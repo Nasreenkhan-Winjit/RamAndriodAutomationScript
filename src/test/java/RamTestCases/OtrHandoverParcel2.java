@@ -79,9 +79,7 @@ public class OtrHandoverParcel2 {
             cap.setCapability("platformVersion", "10");
             cap.setCapability("deviceName", "vivo 1907");
 //      cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
-            cap.setCapability("udid", "192.168.9.33:5555");
-//      cap.setCapability("deviceId", "192.168.0.2:5555");
-//		cap.setCapability("autoGrantPermission", "true");
+//           cap.setCapability("autoGrantPermission", "true");
             cap.setCapability("appPackage", "com.ram.courier");
             cap.setCapability("appActivity", "com.ram.courier.activities.SplashScreen");
             cap.setCapability("noReset", "true");

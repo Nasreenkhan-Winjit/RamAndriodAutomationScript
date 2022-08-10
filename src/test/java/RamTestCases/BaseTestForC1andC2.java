@@ -65,8 +65,7 @@ public void beforeClass() throws MalformedURLException, InterruptedException  {
 		cap.setCapability("platformName", "Android");
 	cap.setCapability("platformVersion", "10");
 	cap.setCapability("deviceName", "vivo 1907");
-	cap.setCapability("udid", "192.168.9.33:5555");
-//	cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
+	//	cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
 //		cap.setCapability("autoGrantPermission", "true");
 		cap.setCapability("appPackage", "com.ram.courier");
 		 cap.setCapability("appActivity", "com.ram.courier.activities.SplashScreen");
@@ -152,19 +151,7 @@ public void AtTheHub () throws InterruptedException {
 	 
 	  MobileElement el22 = (MobileElement) driver.findElementById("com.ram.courier:id/et_ds_no");
 	  el22.sendKeys("DDISA15816827824");
-//	  el22.sendKeys("DDISA16521717725");
-//	  el22.sendKeys("DDPLZ14944011674");
-//	  DDISA15816827824
-//	  DDISA13959025107
-//    DDISA16327469024----SAID Parcels
-//    DDISA16579617778-- Confidence level manifest
-//	  DDISA16587472398---
 
-//	  9999
-//	  1.	DDISA16395682938
-//	  2.	DDISA16395687314
-//	  3.	DDISA16395690751
-//	  4.	DDBLM16395757097
 
 
 	  MobileElement el213 = (MobileElement) driver.findElementById("com.ram.courier:id/btn_submit_ds_no");

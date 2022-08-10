@@ -77,7 +77,6 @@ public class OtrSAIDOCRAnd9999 {
         cap.setCapability("platformName", "Android");
         cap.setCapability("platformVersion", "10");
         cap.setCapability("deviceName", "vivo 1907");
-        cap.setCapability("udid", "192.168.9.33:5555");
 //	cap.setCapability("udid", "8XXCCMUCKV7XIVRG");
 //		cap.setCapability("autoGrantPermission", "true");
         cap.setCapability("appPackage", "com.ram.courier");
